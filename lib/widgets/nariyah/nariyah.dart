@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
-class Sebelum extends StatelessWidget {
-  const Sebelum({super.key});
+class Nariyah extends StatelessWidget {
+  const Nariyah({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -26,9 +26,9 @@ class Sebelum extends StatelessWidget {
           Column(
             children: [
               Text(
-                'رَضِتُ بِااللهِ رَبَا وَبِالْاِسْلاَمِ دِيْنَا وَبِمُحَمَّدٍ نَبِيَا وَرَسُوْلاَ رَبِّ زِدْ نِيْ عِلْمًـاوَرْزُقْنِـيْ فَهْمًـا',
+                'اَللّٰهُمَّ صَلِّ صَلَاةً كَامِلَةً وَسَلِّمْ سَلَامًا تَامًّا عَلىٰ سَيِّدِنَا مُحَــمَّدِ نِ الَّذِيْ تَنْحَلُّ بِهِ الْعُقَدُ وَتَنْفَرِجُ بِهِ الْكُرَبُ وَتُقْضٰى بِهِ الْحَوَائِجُ وَتُنَالُ بِهِ الرَّغَائِبُ وَحُسْنُ الْخَوَاتِمِ وَيُسْتَسْقَى الْغَمَامُ بِوَجْهِهِ الْكَرِيْمِ وَعَلىٰ اٰلِهِ وِصَحْبِهِ فِيْ كُلِّ لَمْحَةٍ وَ نَفَسٍ بِعَدَدِ كُلِّ مَعْلُوْمٍ لَكَ',
                 style: TextStyle(
-                  fontSize: 34,
+                  fontSize: 32,
                   color: Color.fromARGB(255, 38, 105, 40),
                 ),
               ),
@@ -46,9 +46,9 @@ class Sebelum extends StatelessWidget {
           //   ),
           // ),
           Text(
-            "Rodhitu billahirobba, wabil islaamidina, wabi-muhammadin nabiyyaw warosula. Robbi zidnii 'ilmaa warzuqnii fahmaa",
+            'Allâhumma shalli shalâtan kâmilatan wa sallim salâman tâmman `alâ sayyidinâ Muḫammadinil-ladzi tanḫallu bihil-`uqadu wa tanfariju bihil-kurabu wa tuqdlâ bihil-ḫawâiju wa tunâlu bihir-raghâ’ibu wa ḫusnul-khawâtimi wa yustasqal-ghamâmu biwajhihil-karîmi wa `alâ âlihi wa shaḫbihi fî kulli lamḫatin wa nafasin bi`adadi kulli ma`lûmilak(a)',
             style: TextStyle(
-              fontSize: 20,
+              fontSize: 18,
               color: Color.fromARGB(255, 38, 105, 40),
             ),
           ),
@@ -61,7 +61,7 @@ class Sebelum extends StatelessWidget {
           Column(
             children: [
               Text(
-                "Artinya : Aku ridho Allah SWT sebagai Tuhanku, Islam sebagai agamaku, dan Nabi Muhammad SAW sebagai Nabi dan Rasul. Ya Allah, tambahkanlah kepadaku ilmu dan berikanlah aku pengertian yang baik",
+                "Artinya : Ya Allah, limpahkanlah shalawat yang sempurna dan curahkanlah salam kesejahteraan yang penuh kepada junjungan kami Nabi Muhammad, yang dengan sebab beliau semua kesulitan dapat terpecahkan, semua kesusahan dapat dilenyapkan, semua keperluan dapat terpenuhi, dan semua yang didambakan serta husnul khatimah dapat diraih, dan berkat dirinya yang mulia hujanpun turun, dan semoga terlimpahkan kepada keluarganya serta para sahabatnya, di setiap detik dan hembusan nafas sebanyak bilangan semua yang diketahui oleh Engkau.",
                 style: TextStyle(fontSize: 16, fontWeight: FontWeight.w300),
               ),
             ],

@@ -14,9 +14,9 @@ class _HomePageState extends State<HomePage> {
     return Scaffold(
       appBar: AppBar(
         title: const Text("Do'a SMK PGRI 5 JEMBER"),
-        backgroundColor: Colors.brown,
+        backgroundColor: const Color.fromARGB(255, 61, 105, 62),
       ),
-      backgroundColor: Colors.grey.shade200,
+      backgroundColor: const Color.fromARGB(255, 162, 181, 129),
       body: SafeArea(
         child: ListView(
           children: const [
