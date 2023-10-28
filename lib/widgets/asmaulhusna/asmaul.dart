@@ -1,7 +1,9 @@
 import 'package:flutter/material.dart';
 
 class AsmaulMain extends StatelessWidget {
-  const AsmaulMain({super.key,});
+  const AsmaulMain({
+    super.key,
+  });
 
   @override
   Widget build(BuildContext context) {
@@ -49,25 +51,6 @@ class AsmaulMain extends StatelessWidget {
               fontSize: 15,
             ),
           ),
-
-
-
-
-
-      //     ListView.builder(
-      //     itemCount: arti.length,
-      //     itemBuilder: (BuildContext context, int index) {
-      //         final mean = arti[index];
-      //     return AsmaulCard(
-      //       Text(
-      //       '$mean',
-      //         style:
-      //         TextStyle(fontSize: 20, fontWeight: FontWeight.w600),
-      //       )
-      //     );
-      //   },
-      // )
-
           Container(
             margin: const EdgeInsets.symmetric(horizontal: 0, vertical: 18),
             padding: const EdgeInsets.symmetric(horizontal: 16, vertical: 12),
