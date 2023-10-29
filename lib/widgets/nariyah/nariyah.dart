@@ -35,7 +35,7 @@ class Nariyah extends StatelessWidget {
             ],
           ),
           SizedBox(
-            height: 12,
+            height: 20,
           ),
           // IconButton(
           //   onPressed: () {},
@@ -53,16 +53,13 @@ class Nariyah extends StatelessWidget {
             ),
           ),
           SizedBox(
-            height: 12,
-          ),
-          SizedBox(
-            width: 0,
+            height: 20,
           ),
           Column(
             children: [
               Text(
                 "Artinya : Ya Allah, limpahkanlah shalawat yang sempurna dan curahkanlah salam kesejahteraan yang penuh kepada junjungan kami Nabi Muhammad, yang dengan sebab beliau semua kesulitan dapat terpecahkan, semua kesusahan dapat dilenyapkan, semua keperluan dapat terpenuhi, dan semua yang didambakan serta husnul khatimah dapat diraih, dan berkat dirinya yang mulia hujanpun turun, dan semoga terlimpahkan kepada keluarganya serta para sahabatnya, di setiap detik dan hembusan nafas sebanyak bilangan semua yang diketahui oleh Engkau.",
-                style: TextStyle(fontSize: 16, fontWeight: FontWeight.w300),
+                style: TextStyle(fontSize: 16, fontWeight: FontWeight.w400),
               ),
             ],
           ),

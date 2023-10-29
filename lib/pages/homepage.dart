@@ -13,10 +13,34 @@ class _HomePageState extends State<HomePage> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text("Do'a SMK PGRI 5 JEMBER"),
+        title: Container(
+          padding: const EdgeInsets.all(0),
+          child: const Column(
+            children: [
+              Row(
+                mainAxisAlignment: MainAxisAlignment.center,
+                children: [
+                  Text(
+                    "Do'a",
+                    style: TextStyle(fontSize: 16),
+                  ),
+                ],
+              ),
+              Row(
+                mainAxisAlignment: MainAxisAlignment.center,
+                children: [
+                  Text(
+                    'SMK PGRI 5 JEMBER',
+                    style: TextStyle(fontSize: 12),
+                  ),
+                ],
+              ),
+            ],
+          ),
+        ),
         backgroundColor: const Color.fromARGB(255, 61, 105, 62),
       ),
-      backgroundColor: const Color.fromARGB(255, 162, 181, 129),
+      backgroundColor: const Color.fromARGB(255, 216, 220, 209),
       body: SafeArea(
         child: ListView(
           children: const [

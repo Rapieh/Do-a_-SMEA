@@ -62,7 +62,7 @@ class Sebelum extends StatelessWidget {
             children: [
               Text(
                 "Artinya : Aku ridho Allah SWT sebagai Tuhanku, Islam sebagai agamaku, dan Nabi Muhammad SAW sebagai Nabi dan Rasul. Ya Allah, tambahkanlah kepadaku ilmu dan berikanlah aku pengertian yang baik",
-                style: TextStyle(fontSize: 16, fontWeight: FontWeight.w300),
+                style: TextStyle(fontSize: 16, fontWeight: FontWeight.w400),
               ),
             ],
           ),

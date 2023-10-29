@@ -1,11 +1,10 @@
 import 'package:flutter/material.dart';
 
-class AsmaulHusnaCard extends StatelessWidget {
-  const AsmaulHusnaCard(
-      {super.key, required this.asmaulHusna, required this.number});
+class ALWaqiahCard extends StatelessWidget {
+  const ALWaqiahCard({super.key, required this.alWaqiah, required this.number});
 
   final int number;
-  final Map<String, String> asmaulHusna;
+  final Map<String, String> alWaqiah;
   static bool isPressed = false;
   // IconSatu() {
   //   const Icon(
@@ -46,19 +45,8 @@ class AsmaulHusnaCard extends StatelessWidget {
               Text(
                 number.toString(),
                 style:
-                    const TextStyle(fontSize: 18, fontWeight: FontWeight.w400),
+                    const TextStyle(fontSize: 16, fontWeight: FontWeight.w400),
               ),
-              Text(
-                asmaulHusna['arabic'].toString(),
-                style: const TextStyle(
-                  fontSize: 36,
-                  color: Color.fromARGB(255, 38, 105, 40),
-                ),
-              ),
-            ],
-          ),
-          Row(
-            children: [
               IconButton(
                 onPressed: () {
                   IconDua();
@@ -85,42 +73,57 @@ class AsmaulHusnaCard extends StatelessWidget {
                   color: Color.fromARGB(255, 38, 105, 40),
                 ),
               ),
+            ],
+          ),
+          Column(
+            mainAxisAlignment: MainAxisAlignment.start,
+            crossAxisAlignment: CrossAxisAlignment.end,
+            children: [
               Text(
-                asmaulHusna['latin'].toString(),
+                alWaqiah['arabic'].toString(),
                 style: const TextStyle(
-                  fontSize: 20,
+                  fontSize: 28,
+                  color: Color.fromARGB(255, 38, 105, 40),
+                ),
+              ),
+            ],
+          ),
+          Column(
+            children: [
+              Text(
+                alWaqiah['latin'].toString(),
+                style: const TextStyle(
+                  fontSize: 18,
                   color: Color.fromARGB(255, 38, 105, 40),
                 ),
               ),
             ],
           ),
           const SizedBox(
-            height: 4,
+            height: 22,
           ),
-          Row(
+          Column(
             children: [
               const SizedBox(
                 width: 0,
               ),
-              Column(
-                children: [
-                  Text(
-                    'Artinya: ${asmaulHusna['meaning'].toString()}',
-                    maxLines: 2,
-                    style: const TextStyle(
-                        fontSize: 16, fontWeight: FontWeight.w400),
-                  ),
-                  const Divider(
-                    thickness: 2,
-                    color: Color.fromARGB(255, 25, 24, 24),
-                  ),
-                ],
+              Text(
+                'Artinya: ${alWaqiah['meaning'].toString()}',
+                style:
+                    const TextStyle(fontSize: 16, fontWeight: FontWeight.w400),
               ),
+              // const Divider(
+              //   thickness: 2,
+              //   color: Color.fromARGB(255, 25, 24, 24),
+              // ),
             ],
           ),
           const SizedBox(
-            height: 14,
-          ),
+            height: 16,
+          )
+          // const SizedBox(
+          //   height: 14,
+          // ),
           // const Divider(
           //   thickness: 1,
           //   color: Colors.black,

@@ -6,6 +6,7 @@ class AsmaulHusnaCard extends StatelessWidget {
 
   final int number;
   final Map<String, String> nariyah;
+  static bool isPressed = false;
 
   @override
   Widget build(BuildContext context) {
@@ -42,12 +43,20 @@ class AsmaulHusnaCard extends StatelessWidget {
           Row(
             children: [
               IconButton(
-                onPressed: () {},
-                icon: const Icon(
-                  Icons.favorite_border,
-                  size: 24,
-                  color: Color.fromARGB(255, 38, 105, 40),
-                ),
+                onPressed: () {
+                  isPressed = !isPressed;
+                },
+                icon: isPressed
+                    ? const Icon(
+                        Icons.favorite,
+                        size: 24,
+                        color: Color.fromARGB(255, 38, 105, 40),
+                      )
+                    : const Icon(
+                        Icons.favorite_border,
+                        size: 24,
+                        color: Color.fromARGB(255, 38, 105, 40),
+                      ),
               ),
               Text(
                 nariyah['latin'].toString(),
