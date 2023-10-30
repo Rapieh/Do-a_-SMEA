@@ -58,7 +58,7 @@ class HomeMain extends StatelessWidget {
                       'assets/images/logo.png',
                     ),
                     width: 36,
-                    color: Colors.black,
+                    color: Color.fromARGB(255, 36, 87, 37),
                   ),
                   // Icon(
                   //   Icons.bookmark,
@@ -81,8 +81,10 @@ class HomeMain extends StatelessWidget {
           ),
           ElevatedButton(
             onPressed: () {
-              Navigator.push(context,
-                  MaterialPageRoute(builder: (context) => const AlWaqiahPage()));
+              Navigator.push(
+                  context,
+                  MaterialPageRoute(
+                      builder: (context) => const AlWaqiahPage()));
             },
             style: ElevatedButton.styleFrom(
               backgroundColor: const Color.fromARGB(40, 52, 2, 103),
@@ -101,7 +103,7 @@ class HomeMain extends StatelessWidget {
                     'assets/images/logo.png',
                   ),
                   width: 36,
-                  color: Colors.black,
+                  color: Color.fromARGB(255, 36, 87, 37),
                 ),
                 // Icon(
                 //   Icons.bookmark,
@@ -145,7 +147,7 @@ class HomeMain extends StatelessWidget {
                     'assets/images/logo.png',
                   ),
                   width: 36,
-                  color: Colors.black,
+                  color: Color.fromARGB(255, 36, 87, 37),
                 ),
                 // Icon(
                 //   Icons.bookmark,
@@ -191,7 +193,7 @@ class HomeMain extends StatelessWidget {
                     'assets/images/logo.png',
                   ),
                   width: 36,
-                  color: Colors.black,
+                  color: Color.fromARGB(255, 36, 87, 37),
                 ),
                 // Icon(
                 //   Icons.bookmark,
@@ -237,7 +239,7 @@ class HomeMain extends StatelessWidget {
                     'assets/images/logo.png',
                   ),
                   width: 36,
-                  color: Colors.black,
+                  color: Color.fromARGB(255, 36, 87, 37),
                 ),
                 // Icon(
                 //   Icons.bookmark,

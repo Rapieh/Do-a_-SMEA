@@ -22,7 +22,7 @@ class _HomePageState extends State<HomePage> {
                 children: [
                   Text(
                     "Do'a",
-                    style: TextStyle(fontSize: 16),
+                    style: TextStyle(fontSize: 26),
                   ),
                 ],
               ),
@@ -31,7 +31,7 @@ class _HomePageState extends State<HomePage> {
                 children: [
                   Text(
                     'SMK PGRI 5 JEMBER',
-                    style: TextStyle(fontSize: 12),
+                    style: TextStyle(fontSize: 20),
                   ),
                 ],
               ),

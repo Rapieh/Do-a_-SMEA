@@ -13,20 +13,14 @@ class _PrelearnPageState extends State<PrelearnPage> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Row(
+        title: const Row(
           mainAxisAlignment: MainAxisAlignment.spaceBetween,
+          crossAxisAlignment: CrossAxisAlignment.center,
           children: [
-            const Text(
+            Text(
               'Doa Sebelum Belajar',
               style: TextStyle(),
             ),
-            IconButton(
-              onPressed: () {},
-              icon: const Icon(
-                Icons.view_sidebar_rounded,
-                size: 22,
-              ),
-            )
           ],
         ),
         backgroundColor: const Color.fromARGB(255, 61, 105, 62),

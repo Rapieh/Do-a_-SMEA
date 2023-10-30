@@ -13,20 +13,13 @@ class _AyatKursiPageState extends State<AyatKursiPage> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Row(
+        title: const Row(
           mainAxisAlignment: MainAxisAlignment.spaceBetween,
           children: [
-            const Text(
+            Text(
               'Ayat Kursi',
               style: TextStyle(),
             ),
-            IconButton(
-              onPressed: () {},
-              icon: const Icon(
-                Icons.view_sidebar_rounded,
-                size: 22,
-              ),
-            )
           ],
         ),
         backgroundColor: const Color.fromARGB(255, 61, 105, 62),

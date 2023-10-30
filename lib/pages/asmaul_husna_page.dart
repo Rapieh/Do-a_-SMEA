@@ -201,324 +201,327 @@ class _AsmaulHusnaPageState extends State<AsmaulHusnaPage> {
       "meaning": "Yang Maha Memelihara",
     },
     {
-      "arabic":  'المُقِيْتُ',
+      "arabic": 'المُقِيْتُ',
       "latin": 'Al Muqiit',
       "meaning": "Yang Maha Memberi Kecukupan",
     },
     {
-      "arabic":  'الحَسِيْبُ',
+      "arabic": 'الحَسِيْبُ',
       "latin": 'Al Hasiib',
       "meaning": "Yang Maha Membuat Perhitungan",
     },
     {
-      "arabic":  'الجَلِيْلُ',
+      "arabic": 'الجَلِيْلُ',
       "latin": 'Al Jaliil',
       "meaning": "Yang Maha Luhur",
     },
     {
-      "arabic":  'الكَرِيْمُ',
+      "arabic": 'الكَرِيْمُ',
       "latin": 'Al Kariim',
       "meaning": "'Yang Maha Pemurah",
     },
     {
-      "arabic":  'الرَّقِيْبُ',
+      "arabic": 'الرَّقِيْبُ',
       "latin": 'Ar Raqiib',
       "meaning": "Yang Maha Mengawasi",
     },
     {
-      "arabic":  'المُجِيْبُ',
+      "arabic": 'المُجِيْبُ',
       "latin": 'Al Mujiib',
       "meaning": "Yang Maha Mengabulkan",
     },
     {
-      "arabic":  'الوَاسِعُ',
+      "arabic": 'الوَاسِعُ',
       "latin": 'Al Waasi ',
       "meaning": "Yang Maha Luas",
     },
     {
-      "arabic":  'الحَكِيْمُ',
+      "arabic": 'الحَكِيْمُ',
       "latin": 'Al Hakiim',
       "meaning": "Yang Maha Maka Bijaksana",
     },
     {
-      "arabic":  'الوَدُوْدُ',
+      "arabic": 'الوَدُوْدُ',
       "latin": 'Al Waduud',
       "meaning": "Yang Maha Mengasihi",
     },
     {
-      "arabic":  'المَجِيْدُ',
+      "arabic": 'المَجِيْدُ',
       "latin": 'Al Majiid',
       "meaning": "Yang Maha Mulia",
     },
     {
-      "arabic":  'البَاعِثُ',
+      "arabic": 'البَاعِثُ',
       "latin": 'Al Baa`its',
       "meaning": "Yang Maha Membangkitkan",
     },
     {
-      "arabic":  'الشَّهِيْدُ',
+      "arabic": 'الشَّهِيْدُ',
       "latin": 'As Syahiid',
       "meaning": "Yang Maha Menyaksikan",
     },
     {
-      "arabic":  'الحَقُّ',
+      "arabic": 'الحَقُّ',
       "latin": 'Al Haqq',
       "meaning": "Yang Maha Benar",
     },
     {
-      "arabic":  'الوَكِيْلُ',
+      "arabic": 'الوَكِيْلُ',
       "latin": 'Al Wakiil',
       "meaning": "Yang Maha Memelihara",
     },
     {
-      "arabic":  'القَوِىُّ',
+      "arabic": 'القَوِىُّ',
       "latin": 'Al Qawiyyu',
       "meaning": "Yang Maha Kuat",
     },
     {
-      "arabic":  'المَتِيْنُ',
+      "arabic": 'المَتِيْنُ',
       "latin": 'Al Matiin',
       "meaning": "Yang Maha Kokoh",
     },
     {
-      "arabic":  'الوَلِىُّ',
+      "arabic": 'الوَلِىُّ',
       "latin": 'Al Waliyy',
       "meaning": "Yang Maha Melindungi",
     },
     {
-      "arabic":  'الحَمِيْدُ',
+      "arabic": 'الحَمِيْدُ',
       "latin": 'Al Muhshii',
       "meaning": "Yang Maha Menghitung",
     },
     {
-      "arabic":  'المُبْدِئُ',
+      "arabic": 'المُبْدِئُ',
       "latin": 'Al Mubdi',
       "meaning": "Yang Maha Memulai",
     },
     {
-      "arabic":  'المُعِيْدُ',
+      "arabic": 'المُعِيْدُ',
       "latin": 'Al Mu`iid',
       "meaning": "Yang Maha Mengembalikan",
     },
     {
-      "arabic":  'المُحْيِى',
+      "arabic": 'المُحْيِى',
       "latin": 'Al Muhyii',
       "meaning": "Yang Maha Menghidupkan",
     },
     {
-      "arabic":  'المُمِيْتُ',
+      "arabic": 'المُمِيْتُ',
       "latin": 'Al Mumiitu',
       "meaning": "Yang Maha Mematikan",
     },
     {
-      "arabic":  'الحَيُّ',
+      "arabic": 'الحَيُّ',
       "latin": 'Al Hayyu',
       "meaning": "Yang Maha Hidup",
     },
     {
-      "arabic":  'القَيُّوْمُ',
+      "arabic": 'القَيُّوْمُ',
       "latin": 'Al Qayyuum',
       "meaning": "Yang Maha Mandiri",
     },
     {
-      "arabic":  'الوَاجِدُ',
+      "arabic": 'الوَاجِدُ',
       "latin": 'Al Waajid',
       "meaning": "Yang Maha Penemu",
     },
     {
-      "arabic":  'المَاجِدُ',
+      "arabic": 'المَاجِدُ',
       "latin": 'Al Maajid',
       "meaning": "'Yang Maha Mulia",
     },
     {
-      "arabic":  'الوَاحِدُ',
+      "arabic": 'الوَاحِدُ',
       "latin": 'Al Waahid',
       "meaning": "Yang Maha Tunggal'",
     },
     {
-      "arabic":  'الاَحَدُ',
+      "arabic": 'الاَحَدُ',
       "latin": 'Al Ahad',
       "meaning": "Yang Maha Esa",
     },
     {
-      "arabic":  'الصَّمَدُ',
+      "arabic": 'الصَّمَدُ',
       "latin": 'As Shamad',
       "meaning": "Yang Maha Dibutuhkan",
     },
     {
-      "arabic":  'القَادِرُ',
+      "arabic": 'القَادِرُ',
       "latin": 'Al Qaadir',
       "meaning": "Yang Maha Menentukan",
     },
     {
-      "arabic":  'المُقْتَدِرُ',
+      "arabic": 'المُقْتَدِرُ',
       "latin": 'Al Muqtadir',
       "meaning": "Yang Maha Berkuasa",
     },
     {
-      "arabic":  'المُقَدِّمُ',
+      "arabic": 'المُقَدِّمُ',
       "latin": 'Al Muqaddim',
       "meaning": "Yang Maha Mendahulukan",
     },
     {
-      "arabic":  'المُؤَخِّرُ',
+      "arabic": 'المُؤَخِّرُ',
       "latin": 'Al Mu`akkhir',
       "meaning": "Yang Maha Mengakhirkan",
     },
     {
-      "arabic":  'الأَوَّلُ',
+      "arabic": 'الأَوَّلُ',
       "latin": 'Al Awwal',
       "meaning": "Yang Maha Awal",
     },
     {
-      "arabic":  'الأَخِرُ',
+      "arabic": 'الأَخِرُ',
       "latin": 'Al Aakhir',
       "meaning": "Yang Maha Akhir",
     },
     {
-      "arabic":  'الظَّاهِرُ',
+      "arabic": 'الظَّاهِرُ',
       "latin": 'Al Zhaahir',
       "meaning": "Yang Maha Nyata",
     },
     {
-      "arabic":  'البَاطِنُ',
+      "arabic": 'البَاطِنُ',
       "latin": 'Al Baathin',
       "meaning": "Yang Maha Ghaib",
     },
     {
-      "arabic":  'الوَالِي',
+      "arabic": 'الوَالِي',
       "latin": 'Al Waali',
       "meaning": "Yang Maha Memerintah",
     },
     {
-      "arabic":  'المُتَعَالِي',
+      "arabic": 'المُتَعَالِي',
       "latin": 'Al Muta`aalii',
       "meaning": "Yang Maha Tinggi",
     },
     {
-      "arabic":  'البَرُّ',
+      "arabic": 'البَرُّ',
       "latin": 'Al Barru',
       "meaning": "Yang Maha berbuat baik",
     },
     {
-      "arabic":  'التَّوَّابُ',
+      "arabic": 'التَّوَّابُ',
       "latin": 'At Tawwaab',
       "meaning": "Yang Maha Penerima Tobat",
     },
     {
-      "arabic":  'المُنْتَقِمُ',
+      "arabic": 'المُنْتَقِمُ',
       "latin": 'Al Muntaqim',
       "meaning": "Yang Maha Penuntut balas",
     },
     {
-      "arabic":  'العَفُوُّ',
+      "arabic": 'العَفُوُّ',
       "latin": 'Al Afuww',
       "meaning": "Yang Maha Pemaaf",
     },
     {
-      "arabic":  'الرَّؤُوْفُ',
+      "arabic": 'الرَّؤُوْفُ',
       "latin": 'Ar Ra`uuf',
       "meaning": "Yang Maha Pengasuh",
     },
     {
-      "arabic":  'مَالِكُ المُلْكِ',
+      "arabic": 'مَالِكُ المُلْكِ',
       "latin": 'Malikul Mulk',
       "meaning": "Yang Maha Penguasa Kerajaan",
     },
     {
-      "arabic":  'ذُوْ الجَلَالِ وَ الإِكْرَامِ',
+      "arabic": 'ذُوْ الجَلَالِ وَ الإِكْرَامِ',
       "latin": 'Dzul Jalali Wal Ikram',
       "meaning": "Yang Maha Pemilik Kebesaran dan Kemuliaan",
     },
     {
-      "arabic":  'المُقْسِطُ',
+      "arabic": 'المُقْسِطُ',
       "latin": 'Al Muqsit',
       "meaning": "Yang Maha Pemberi Keadilan",
     },
     {
-      "arabic":  'الجَامِعُ',
+      "arabic": 'الجَامِعُ',
       "latin": 'Al Jami`',
       "meaning": "Yang Maha Mengumpulkan",
     },
     {
-      "arabic":  'الغَنِىُّ',
+      "arabic": 'الغَنِىُّ',
       "latin": 'Al Ghani',
       "meaning": "Yang Maha Kaya",
     },
     {
-      "arabic":  'المُغْنِى',
+      "arabic": 'المُغْنِى',
       "latin": 'Al Mughni',
       "meaning": "Yang Maha Pemberi Kekayaan",
     },
     {
-      "arabic":  'المَانِعُ',
+      "arabic": 'المَانِعُ',
       "latin": 'Al Maani',
       "meaning": "Yang Maha Mencegah",
     },
     {
-      "arabic":  'الضَّارُّ',
+      "arabic": 'الضَّارُّ',
       "latin": 'Ad Dhaar',
       "meaning": "Yang Maha Menimpa Kemudaratan",
     },
     {
-      "arabic":  'النَّافِعُ',
+      "arabic": 'النَّافِعُ',
       "latin": 'Al Naafi',
       "meaning": "Yang Maha Memberi Manfaat",
     },
     {
-      "arabic":  'النُّوْرُ',
+      "arabic": 'النُّوْرُ',
       "latin": 'An Nuur',
       "meaning": "Yang Maha Bercahaya",
     },
     {
-      "arabic":  'الهَادِئ',
+      "arabic": 'الهَادِئ',
       "latin": 'Al Haadi',
       "meaning": "Yang Maha Pemberi Petunjuk",
     },
     {
-      "arabic":  'البَدِيْعُ',
+      "arabic": 'البَدِيْعُ',
       "latin": 'Al Badi',
       "meaning": "Yang Maha Pencipta",
     },
     {
-      "arabic":  'البَاقِي',
+      "arabic": 'البَاقِي',
       "latin": 'Al Baaqii',
       "meaning": "Yang Maha Kekal",
     },
     {
-      "arabic":  'الوَارِثُ',
+      "arabic": 'الوَارِثُ',
       "latin": 'Al Waarits',
       "meaning": "Yang Maha Pewaris",
     },
     {
-      "arabic":  'الرَّشِيْدُ',
+      "arabic": 'الرَّشِيْدُ',
       "latin": 'Ar Rasyiid',
       "meaning": "Yang Maha Pandai",
     },
     {
-      "arabic":  'الصَّبُوْرُ',
+      "arabic": 'الصَّبُوْرُ',
       "latin": 'As Shabuur',
       "meaning": "Yang Maha Sabar",
-    }];
+    }
+  ];
+
+  final List<Map<String, String>> bismillah = [
+    {
+      "arabic": 'بِسْــــــــــــــــــمِ اللهِ الرَّحْمَنِ الرَّحِيْمِ',
+      "latin": 'Bismillahirrahmanirrahim',
+      "meaning":
+          'dengan menyebut nama Allah yang Maha Pengasih dan Maha Penyayang.'
+    }
+  ];
 
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Row(
+        title: const Row(
           mainAxisAlignment: MainAxisAlignment.spaceBetween,
           children: [
-            const Text(
+            Text(
               'Asmaul-Husna',
               style: TextStyle(),
             ),
-            IconButton(
-              onPressed: () {},
-              icon: const Icon(
-                Icons.view_sidebar_rounded,
-                size: 22,
-              ),
-            )
           ],
         ),
         backgroundColor: const Color.fromARGB(255, 61, 105, 62),
@@ -530,6 +533,15 @@ class _AsmaulHusnaPageState extends State<AsmaulHusnaPage> {
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.stretch,
           children: [
+            // Expanded(
+            //   child: ListView.builder(
+            //     itemCount: bismillah.length,
+            //     itemBuilder: (context, index) {
+            //       final Map<String, String> listBismillah = bismillah[index];
+            //       return Bismillah(listBismillah: listBismillah);
+            //     },
+            //   ),
+            // ),
             Expanded(
               child: ListView.builder(
                 itemCount: listAsmaulHusna.length,

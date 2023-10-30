@@ -16,6 +16,7 @@ class AsmaulHusnaCard extends StatelessWidget {
   //   return IconSatu();
   // }
 
+  // ignore: non_constant_identifier_names
   IconDua() {
     const Icon(
       Icons.favorite,

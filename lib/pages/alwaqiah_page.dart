@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:hukumanbuersya/widgets/alwaqiah/alwaqiah_card.dart';
-import 'package:hukumanbuersya/widgets/alwaqiah/waqiah.dart';
 
 class AlWaqiahPage extends StatefulWidget {
   const AlWaqiahPage({super.key});
@@ -12,11 +11,11 @@ class AlWaqiahPage extends StatefulWidget {
 class _AlWaqiahPageState extends State<AlWaqiahPage> {
   final List<Map<String, String>> listAlWaqiah = [
     // bismillah
-    // {
-    //   "arabic": "بِسْــــــــــــــــــمِ اللهِ الرَّحْمَنِ الرَّحِيْمِ",
-    //   "latin": "Bismillahirrahmanirrahim",
-    //   "meaning": 'Dengan Menyebut nama Allah',
-    // },
+    {
+      "arabic": "بِسْــــــــــــــــــمِ اللهِ الرَّحْمَنِ الرَّحِيْمِ",
+      "latin": "Bismillahirrahmanirrahim",
+      "meaning": 'Dengan Menyebut nama Allah',
+    },
     // ayat 1
     {
       "arabic": "اِذَا وَقَعَتِ الۡوَاقِعَةُ",
@@ -626,20 +625,13 @@ class _AlWaqiahPageState extends State<AlWaqiahPage> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Row(
+        title: const Row(
           mainAxisAlignment: MainAxisAlignment.spaceBetween,
           children: [
-            const Text(
-              'Asmaul-Husna',
+            Text(
+              'Al-Waqiah',
               style: TextStyle(),
             ),
-            IconButton(
-              onPressed: () {},
-              icon: const Icon(
-                Icons.view_sidebar_rounded,
-                size: 22,
-              ),
-            )
           ],
         ),
         backgroundColor: const Color.fromARGB(255, 61, 105, 62),
