@@ -15,7 +15,10 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       title: 'Doa App',
       theme: ThemeData(),
-      home: const HomePage(),
+      home: const DefaultTabController(
+        length: 3,
+        child:  HomePage(),
+      ), 
     );
   }
 }

@@ -76,19 +76,25 @@ class ALWaqiahCard extends StatelessWidget {
               ),
             ],
           ),
+
           Column(
-            mainAxisAlignment: MainAxisAlignment.start,
-            crossAxisAlignment: CrossAxisAlignment.end,
+            crossAxisAlignment: CrossAxisAlignment.stretch,
             children: [
-              Text(
-                alWaqiah['arabic'].toString(),
-                style: const TextStyle(
-                  fontSize: 28,
-                  color: Color.fromARGB(255, 38, 105, 40),
+              Container(
+                margin: const EdgeInsets.symmetric(),
+                // decoration: const BoxDecoration(color: Colors.grey), 
+                child: Text(
+                  alWaqiah['arabic'].toString(),
+                  textAlign: TextAlign.right,
+                  style: const TextStyle(
+                    fontSize: 28,
+                    color: Color.fromARGB(255, 38, 105, 40),
+                  ),
                 ),
-              ),
+              )
             ],
           ),
+
           Column(
             children: [
               Text(
