@@ -58,7 +58,7 @@ class JuzzAmma extends StatelessWidget {
             ),
           ),
           const SizedBox(
-            height: 20,
+            height: 16,
           ),
           ElevatedButton(
             onPressed: () {
@@ -103,6 +103,9 @@ class JuzzAmma extends StatelessWidget {
               ],
             ),
           ),
+          const SizedBox(
+            height: 16,
+          ),
           ElevatedButton(
             onPressed: () {
               // Navigator.push(
@@ -145,6 +148,9 @@ class JuzzAmma extends StatelessWidget {
                 ),
               ],
             ),
+          ),
+          const SizedBox(
+            height: 16,
           ),
           ElevatedButton(
             onPressed: () {

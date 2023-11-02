@@ -17,19 +17,21 @@ class HomeMain extends StatelessWidget {
       ),
       margin: const EdgeInsetsDirectional.symmetric(vertical: 0, horizontal: 0),
       decoration: const BoxDecoration(
-        color: Colors.grey,
-      ),
+          // color: Colors.grey,
+          ),
       child: Column(
         children: [
-          // const SizedBox(height: 50,),
+          const SizedBox(
+            height: 50,
+          ),
           Image.asset(
             'assets/images/alquran.png',
             width: 160,
             color: const Color.fromARGB(255, 36, 87, 37),
           ),
-          // const SizedBox(
-          //   height: 50,
-          // ),
+          const SizedBox(
+            height: 50,
+          ),
           // Image.asset(
           //   'assets/images/logo.png',
           //   width: 40,
