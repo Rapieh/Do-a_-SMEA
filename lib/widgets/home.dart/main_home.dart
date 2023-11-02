@@ -21,6 +21,7 @@ class HomeMain extends StatelessWidget {
           ),
       child: Column(
         children: [
+<<<<<<< HEAD
           const SizedBox(
             height: 50,
           ),
@@ -29,14 +30,11 @@ class HomeMain extends StatelessWidget {
             width: 160,
             color: const Color.fromARGB(255, 36, 87, 37),
           ),
+=======
+>>>>>>> 571b4ce8e948b4dadd9a7272d2ddbe75118798b7
           const SizedBox(
             height: 50,
           ),
-          // Image.asset(
-          //   'assets/images/logo.png',
-          //   width: 40,
-          //   color: const Color.fromARGB(218, 0, 0, 0),
-          // ),
           ElevatedButton(
             onPressed: () {
               Navigator.push(
