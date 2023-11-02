@@ -20,20 +20,9 @@ class HomeMain extends StatelessWidget {
       child: Column(
         mainAxisAlignment: MainAxisAlignment.spaceEvenly,
         children: [
-          // const SizedBox(height: 50,),
-          Image.asset(
-            'assets/images/alquran.png',
-            width: 160,
-            color: const Color.fromARGB(255, 36, 87, 37),
-          ),
           const SizedBox(
             height: 50,
           ),
-          // Image.asset(
-          //   'assets/images/logo.png',
-          //   width: 40,
-          //   color: const Color.fromARGB(218, 0, 0, 0),
-          // ),
           ElevatedButton(
               onPressed: () {
                 Navigator.push(
