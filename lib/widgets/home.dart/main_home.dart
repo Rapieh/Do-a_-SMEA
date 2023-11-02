@@ -21,17 +21,15 @@ class HomeMain extends StatelessWidget {
           ),
       child: Column(
         children: [
-<<<<<<< HEAD
-          const SizedBox(
-            height: 50,
-          ),
+          const SizedBox(height: 50,),
           Image.asset(
             'assets/images/alquran.png',
             width: 160,
             color: const Color.fromARGB(255, 36, 87, 37),
           ),
-=======
->>>>>>> 571b4ce8e948b4dadd9a7272d2ddbe75118798b7
+          const SizedBox(
+            height: 50,
+          ),
           const SizedBox(
             height: 50,
           ),
