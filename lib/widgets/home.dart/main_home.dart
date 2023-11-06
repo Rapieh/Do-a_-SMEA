@@ -21,7 +21,9 @@ class HomeMain extends StatelessWidget {
           ),
       child: Column(
         children: [
-          const SizedBox(height: 50,),
+          const SizedBox(
+            height: 50,
+          ),
           Image.asset(
             'assets/images/alquran.png',
             width: 160,
@@ -33,7 +35,7 @@ class HomeMain extends StatelessWidget {
           const SizedBox(
             height: 50,
           ),
-          OutlinedButton(
+          ElevatedButton(
             onPressed: () {
               Navigator.push(
                   context,
