@@ -284,7 +284,7 @@ class JuzzAmma extends StatelessWidget {
                   width: 12,
                 ),
                 Text(
-                  'Al-Zalzalah',
+                  'Al-zalzalah',
                   style: TextStyle(
                       fontWeight: FontWeight.bold,
                       fontSize: 20,
