@@ -10,6 +10,7 @@ class JuzzAmma extends StatelessWidget {
       margin: const EdgeInsets.symmetric(horizontal: 12, vertical: 12),
       child: Column(
         children: [
+          const SizedBox(height: 50,),
           ElevatedButton(
             onPressed: () {
               // Navigator.push(
