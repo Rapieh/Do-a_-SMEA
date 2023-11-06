@@ -33,7 +33,7 @@ class HomeMain extends StatelessWidget {
           const SizedBox(
             height: 50,
           ),
-          ElevatedButton(
+          OutlinedButton(
             onPressed: () {
               Navigator.push(
                   context,

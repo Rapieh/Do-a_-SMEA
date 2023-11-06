@@ -24,9 +24,11 @@ class Nariyah extends StatelessWidget {
           //     TextStyle(fontSize: 14, fontWeight: FontWeight.w300),
           // ),
           Column(
+            crossAxisAlignment: CrossAxisAlignment.stretch,
             children: [
               Text(
                 'اَللّٰهُمَّ صَلِّ صَلَاةً كَامِلَةً وَسَلِّمْ سَلَامًا تَامًّا عَلىٰ سَيِّدِنَا مُحَــمَّدِ نِ الَّذِيْ تَنْحَلُّ بِهِ الْعُقَدُ وَتَنْفَرِجُ بِهِ الْكُرَبُ وَتُقْضٰى بِهِ الْحَوَائِجُ وَتُنَالُ بِهِ الرَّغَائِبُ وَحُسْنُ الْخَوَاتِمِ وَيُسْتَسْقَى الْغَمَامُ بِوَجْهِهِ الْكَرِيْمِ وَعَلىٰ اٰلِهِ وِصَحْبِهِ فِيْ كُلِّ لَمْحَةٍ وَ نَفَسٍ بِعَدَدِ كُلِّ مَعْلُوْمٍ لَكَ',
+                textAlign: TextAlign.right,
                 style: TextStyle(
                   fontSize: 32,
                   color: Color.fromARGB(255, 38, 105, 40),

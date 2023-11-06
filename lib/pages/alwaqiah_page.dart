@@ -647,9 +647,9 @@ class _AlWaqiahPageState extends State<AlWaqiahPage> {
               child: ListView.builder(
                 itemCount: listAlWaqiah.length,
                 itemBuilder: (context, index) {
-                  final Map<String, String> asmaulHusna = listAlWaqiah[index];
+                  final Map<String, String> alWaqiah = listAlWaqiah[index];
                   return ALWaqiahCard(
-                    alWaqiah: asmaulHusna,
+                    alWaqiah: alWaqiah,
                     number: index + 1,
                   );
                 },

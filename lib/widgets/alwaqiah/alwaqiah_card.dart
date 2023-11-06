@@ -40,49 +40,53 @@ class ALWaqiahCard extends StatelessWidget {
       ),
       child: Column(
         children: [
-          Row(
-            mainAxisAlignment: MainAxisAlignment.spaceBetween,
+          Column(
+            // mainAxisAlignment: MainAxisAlignment.spaceBetween,
+            crossAxisAlignment: CrossAxisAlignment.stretch,
             children: [
               Text(
                 number.toString(),
+                textAlign: TextAlign.left,
                 style:
                     const TextStyle(fontSize: 16, fontWeight: FontWeight.w400),
               ),
-              IconButton(
-                onPressed: () {
-                  IconDua();
-                  // () {
-                  //   const Icon(
-                  //     Icons.favorite,
-                  //     size: 24,
-                  //     color: Color.fromARGB(255, 38, 105, 40),
-                  //   );
-                  // };
-                  // isPressed = !isPressed;
-                },
-                icon:
-                    // isPressed
-                    // ? const Icon(
-                    //     Icons.favorite,
-                    //     size: 24,
-                    //     color: Color.fromARGB(255, 38, 105, 40),
-                    //   )
-                    // :
-                    const Icon(
-                  Icons.favorite_border,
-                  size: 24,
-                  color: Color.fromARGB(255, 38, 105, 40),
-                ),
-              ),
+              // IconButton(
+              //   onPressed: () {
+              //     IconDua();
+              // () {
+              //   const Icon(
+              //     Icons.favorite,
+              //     size: 24,
+              //     color: Color.fromARGB(255, 38, 105, 40),
+              //   );
+              // };
+              // isPressed = !isPressed;
+              // },
+              // icon:
+              // isPressed
+              // ? const Icon(
+              //     Icons.favorite,
+              //     size: 24,
+              //     color: Color.fromARGB(255, 38, 105, 40),
+              //   )
+              // :
+              //     const Icon(
+              //   Icons.favorite_border,
+              //   size: 24,
+              //   color: Color.fromARGB(255, 38, 105, 40),
+              // ),
+              // ),
             ],
           ),
-
+          const SizedBox(
+            height: 16,
+          ),
           Column(
             crossAxisAlignment: CrossAxisAlignment.stretch,
             children: [
               Container(
                 margin: const EdgeInsets.symmetric(),
-                // decoration: const BoxDecoration(color: Colors.grey), 
+                // decoration: const BoxDecoration(color: Colors.grey),
                 child: Text(
                   alWaqiah['arabic'].toString(),
                   textAlign: TextAlign.right,
@@ -95,27 +99,26 @@ class ALWaqiahCard extends StatelessWidget {
             ],
           ),
 
-          Column(
-            children: [
-              Text(
-                alWaqiah['latin'].toString(),
-                style: const TextStyle(
-                  fontSize: 18,
-                  color: Color.fromARGB(255, 38, 105, 40),
-                ),
-              ),
-            ],
-          ),
+          // Column(
+          //   children: [
+          //     Text(
+          //       alWaqiah['latin'].toString(),
+          //       style: const TextStyle(
+          //         fontSize: 18,
+          //         color: Color.fromARGB(255, 38, 105, 40),
+          //       ),
+          //     ),
+          //   ],
+          // ),
           const SizedBox(
-            height: 22,
+            height: 30,
           ),
           Column(
+            crossAxisAlignment: CrossAxisAlignment.stretch,
             children: [
-              const SizedBox(
-                width: 0,
-              ),
               Text(
                 'Artinya: ${alWaqiah['meaning'].toString()}',
+                textAlign: TextAlign.left,
                 style:
                     const TextStyle(fontSize: 16, fontWeight: FontWeight.w400),
               ),

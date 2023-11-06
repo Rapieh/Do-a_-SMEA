@@ -24,9 +24,11 @@ class Sebelum extends StatelessWidget {
           //     TextStyle(fontSize: 14, fontWeight: FontWeight.w300),
           // ),
           Column(
+            crossAxisAlignment: CrossAxisAlignment.stretch,
             children: [
               Text(
                 'رَضِتُ بِااللهِ رَبَا وَبِالْاِسْلاَمِ دِيْنَا وَبِمُحَمَّدٍ نَبِيَا وَرَسُوْلاَ رَبِّ زِدْ نِيْ عِلْمًـاوَرْزُقْنِـيْ فَهْمًـا',
+                textAlign: TextAlign.right,
                 style: TextStyle(
                   fontSize: 34,
                   color: Color.fromARGB(255, 38, 105, 40),

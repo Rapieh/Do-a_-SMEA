@@ -58,45 +58,45 @@ class AsmaulHusnaCard extends StatelessWidget {
               ),
             ],
           ),
-          Row(
-            children: [
-              IconButton(
-                onPressed: () {
-                  IconDua();
-                  // () {
-                  //   const Icon(
-                  //     Icons.favorite,
-                  //     size: 24,
-                  //     color: Color.fromARGB(255, 38, 105, 40),
-                  //   );
-                  // };
-                  // isPressed = !isPressed;
-                },
-                icon:
-                    // isPressed
-                    // ? const Icon(
-                    //     Icons.favorite,
-                    //     size: 24,
-                    //     color: Color.fromARGB(255, 38, 105, 40),
-                    //   )
-                    // :
-                    const Icon(
-                  Icons.favorite_border,
-                  size: 24,
-                  color: Color.fromARGB(255, 38, 105, 40),
-                ),
-              ),
-              Text(
-                asmaulHusna['latin'].toString(),
-                style: const TextStyle(
-                  fontSize: 20,
-                  color: Color.fromARGB(255, 38, 105, 40),
-                ),
-              ),
-            ],
-          ),
+          // Row(
+          //   children: [
+          //     IconButton(
+          //       onPressed: () {
+          //         IconDua();
+          //         // () {
+          //         //   const Icon(
+          //         //     Icons.favorite,
+          //         //     size: 24,
+          //         //     color: Color.fromARGB(255, 38, 105, 40),
+          //         //   );
+          //         // };
+          //         // isPressed = !isPressed;
+          //       },
+          //       icon:
+          //           // isPressed
+          //           // ? const Icon(
+          //           //     Icons.favorite,
+          //           //     size: 24,
+          //           //     color: Color.fromARGB(255, 38, 105, 40),
+          //           //   )
+          //           // :
+          //           const Icon(
+          //         Icons.favorite_border,
+          //         size: 24,
+          //         color: Color.fromARGB(255, 38, 105, 40),
+          //       ),
+          //     ),
+          //     Text(
+          //       asmaulHusna['latin'].toString(),
+          //       style: const TextStyle(
+          //         fontSize: 20,
+          //         color: Color.fromARGB(255, 38, 105, 40),
+          //       ),
+          //     ),
+          //   ],
+          // ),
           const SizedBox(
-            height: 4,
+            height: 26,
           ),
           Row(
             children: [
