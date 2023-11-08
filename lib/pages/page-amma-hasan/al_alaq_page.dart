@@ -75,8 +75,7 @@ class _AlAlaqState extends State<AlAlaq> {
     {
       "arabic": "عَبۡدًا اِذَا صَلّٰىؕ ؕ",
       "latin": "Wassaabiquunas saabiquun",
-      "meaning":
-          'seorang hamba ketika dia melaksanakan shalat',
+      "meaning": 'seorang hamba ketika dia melaksanakan shalat',
     },
     // ayat 11
     {
@@ -89,40 +88,40 @@ class _AlAlaqState extends State<AlAlaq> {
     {
       "arabic": "اَوۡ اَمَرَ بِالتَّقۡوٰىۙ",
       "latin": "Fii Jannaatin Na'iim",
-      "meaning":
-          'atau dia menyuruh bertakwa (kepada Allah)?',
+      "meaning": 'atau dia menyuruh bertakwa (kepada Allah)?',
     },
     // ayat 13
     {
       "arabic": "اَرَءَيۡتَ اِنۡ كَذَّبَ وَتَوَلّٰىؕ",
       "latin": "Sullatum minal awwaliin",
-      "meaning": 'Bagaimana pendapatmu jika dia (yang melarang) itu mendustakan dan berpaling?',
+      "meaning":
+          'Bagaimana pendapatmu jika dia (yang melarang) itu mendustakan dan berpaling?',
     },
     // ayat 14
     {
       "arabic": "اَلَمۡ يَعۡلَمۡ بِاَنَّ اللّٰهَ يَرٰىؕ",
       "latin": "Wa qaliilum minal aa khiriin",
-      "meaning": 'Tidakkah dia mengetahui bahwa sesungguhnya Allah melihat (segala perbuatannya)?',
+      "meaning":
+          'Tidakkah dia mengetahui bahwa sesungguhnya Allah melihat (segala perbuatannya)?',
     },
     // ayat 15
     {
       "arabic": "كَلَّا لَٮِٕنۡ لَّمۡ يَنۡتَهِ ۙ لَنَسۡفَعًۢا بِالنَّاصِيَةِۙ",
       "latin": "'Alaa sururim mawduunah",
-      "meaning": 'Sekali-kali tidak! Sungguh, jika dia tidak berhenti (berbuat demikian) niscaya Kami tarik ubun-ubunnya, (ke dalam neraka),',
+      "meaning":
+          'Sekali-kali tidak! Sungguh, jika dia tidak berhenti (berbuat demikian) niscaya Kami tarik ubun-ubunnya, (ke dalam neraka),',
     },
     // ayat 16
     {
       "arabic": "نَاصِيَةٍ كَاذِبَةٍ خَاطِئَةٍ‌",
       "latin": "Muttaki'iina 'alaihaa mutaqabiliin",
-      "meaning":
-          '(yaitu) ubun-ubun orang yang mendustakan dan durhaka.',
+      "meaning": '(yaitu) ubun-ubun orang yang mendustakan dan durhaka.',
     },
     // ayat 17
     {
       "arabic": "فَلۡيَدۡعُ نَادِيَهٗ",
       "latin": "Yatuufu 'alaihim wildaa num mukkhalladuun",
-      "meaning":
-          'Maka biarlah dia memanggil golongannya (untuk menolongnya),',
+      "meaning": 'Maka biarlah dia memanggil golongannya (untuk menolongnya),',
     },
     // ayat 18
     {
@@ -148,7 +147,7 @@ class _AlAlaqState extends State<AlAlaq> {
           mainAxisAlignment: MainAxisAlignment.spaceBetween,
           children: [
             Text(
-              'An-Alaq',
+              'Al-Alaq',
               style: TextStyle(),
             ),
           ],
