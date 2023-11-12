@@ -28,7 +28,7 @@ class _HomePageState extends State<HomePage> {
   @override
   Widget build(BuildContext context) {
     return DefaultTabController(
-      initialIndex: 1,
+      initialIndex: 0,
       length: 3,
       child: Scaffold(
         appBar: AppBar(
@@ -66,7 +66,7 @@ class _HomePageState extends State<HomePage> {
           ),
           backgroundColor: const Color.fromARGB(255, 61, 105, 62),
         ),
-        backgroundColor: const Color.fromARGB(255, 216, 220, 209),
+        backgroundColor: const Color(0xFFFFFBF5),
         body: const TabBarView(
           // clipBehavior: Clip.antiAliasWithSaveLayer,
           children: [HomeMain(), JuzzAmma(), Istigosah()],
