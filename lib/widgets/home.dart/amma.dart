@@ -1,5 +1,15 @@
 import 'package:flutter/material.dart';
 <<<<<<< HEAD
+import 'package:hukumanbuersya/pages/pages-amma-alfi/abasa.dart';
+import 'package:hukumanbuersya/pages/pages-amma-alfi/ad-dhuha.dart';
+import 'package:hukumanbuersya/pages/pages-amma-alfi/al-buruj.dart';
+import 'package:hukumanbuersya/pages/pages-amma-alfi/al-fajr.dart';
+import 'package:hukumanbuersya/pages/pages-amma-alfi/al-falaq.dart';
+import 'package:hukumanbuersya/pages/pages-amma-alfi/al-fil.dart';
+import 'package:hukumanbuersya/pages/pages-amma-alfi/al-qadr.dart';
+import 'package:hukumanbuersya/pages/pages-amma-alfi/al-qariaah.dart';
+=======
+<<<<<<< HEAD
 import 'package:hukumanbuersya/pages/page-amma-rizki/an-naba.dart';
 // ignore: unused_import
 import 'package:hukumanbuersya/pages/page-amma-rizki/al_infitar.dart';
@@ -33,6 +43,7 @@ import 'package:hukumanbuersya/pages/page-amma-ravi/at_takwir_page.dart';
 import 'package:hukumanbuersya/pages/page-amma-ravi/quraisy_page.dart';
 >>>>>>> main
 >>>>>>> main
+>>>>>>> main
 
 class JuzzAmma extends StatelessWidget {
   const JuzzAmma({super.key});
@@ -40,6 +51,10 @@ class JuzzAmma extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
+<<<<<<< HEAD
+    child:
+    Container(
+=======
 <<<<<<< HEAD
       child: Container(
       padding: const EdgeInsets.symmetric(vertical: 0, horizontal: 0),
@@ -354,10 +369,24 @@ class JuzzAmma extends StatelessWidget {
 =======
 <<<<<<< HEAD
         child: Container(
+>>>>>>> main
       padding: const EdgeInsets.symmetric(vertical: 0, horizontal: 0),
       margin: const EdgeInsets.symmetric(horizontal: 12, vertical: 12),
       child: Column(
         children: [
+<<<<<<< HEAD
+          ElevatedButton(
+            onPressed: () {
+              Navigator.push(
+                  context,
+                  MaterialPageRoute(
+                      builder: (context) => const AbasaPage()));
+            },
+            style: ElevatedButton.styleFrom(
+              padding: const EdgeInsets.symmetric(horizontal: 20,vertical: 10),
+              backgroundColor: const Color.fromARGB(255, 255, 255, 255),
+              minimumSize: const Size(250, 50),
+=======
           const SizedBox(
               // height: 50,
               ),
@@ -373,11 +402,41 @@ class JuzzAmma extends StatelessWidget {
                   vertical: 10, horizontal: 20),
               backgroundColor: const Color(0xFFFFFFFF),
               minimumSize: const Size(350, 60),
+>>>>>>> main
               shape: RoundedRectangleBorder(
                 borderRadius: BorderRadius.circular(10),
               ),
             ),
             child: const Column(
+<<<<<<< HEAD
+              crossAxisAlignment: CrossAxisAlignment.start,
+              children: [
+                Row(
+                  children:[
+                // SizedBox(
+                //   width: 10,
+                // ),
+                Image(
+                  image: AssetImage(
+                    'assets/images/logo.png',
+                  ),
+                  width: 36,
+                  color: Color.fromARGB(255, 36, 87, 37),
+                ),
+                // Icon(
+                //   Icons.bookmark,
+                //   size: 28,
+                // ),
+                SizedBox(
+                  width: 12,
+                ),
+                Text(
+                  'Abasa',
+                  style: TextStyle(
+                      fontWeight: FontWeight.bold,
+                      fontSize: 20,
+                      color: Color.fromARGB(255, 0, 0, 0)),
+=======
               children: [
                 Row(
                   children: [
@@ -414,25 +473,37 @@ class JuzzAmma extends StatelessWidget {
                 Text(
                   "(Malaikat-malaikat yang Mencabut) surat ke-79 terdiri dari 46 ayat",
                   style: TextStyle(color: Color(0xD95C5470), fontSize: 14),
+>>>>>>> main
                 ),
+                ],
+                ),
+                Divider(
+                  thickness: 0.8,
+                ),
+                Text(
+                  '(Ia Bermuka Masam) surat ke-80 terdiri dari 40 ayat',
+                  textAlign: TextAlign.left,
+                  style: TextStyle(
+                  fontSize: 14,
+                  color: Color.fromARGB(255, 0, 0, 0))),
               ],
             ),
           ),
+          
           const SizedBox(
             height: 16,
           ),
-
-          // AL INSYIQAQ
-          ElevatedButton(
+           ElevatedButton(
             onPressed: () {
-              Navigator.push(context,
-                  MaterialPageRoute(builder: (context) => const AlInsyiqaq()));
+              Navigator.push(
+                  context,
+                  MaterialPageRoute(
+                      builder: (context) => const AlburujPage()));
             },
             style: ElevatedButton.styleFrom(
-              padding: const EdgeInsetsDirectional.symmetric(
-                  vertical: 10, horizontal: 20),
-              backgroundColor: const Color(0xFFFFFFFF),
-              minimumSize: const Size(350, 60),
+              padding: const EdgeInsets.symmetric(horizontal: 20,vertical: 10),
+              backgroundColor: const Color.fromARGB(255, 255, 255, 255),
+              minimumSize: const Size(250, 50),
               shape: RoundedRectangleBorder(
                 borderRadius: BorderRadius.circular(10),
               ),
@@ -441,6 +512,107 @@ class JuzzAmma extends StatelessWidget {
               crossAxisAlignment: CrossAxisAlignment.start,
               children: [
                 Row(
+                  children:[
+                // SizedBox(
+                //   width: 10,
+                // ),
+                Image(
+                  image: AssetImage(
+                    'assets/images/logo.png',
+                  ),
+                  width: 36,
+                  color: Color.fromARGB(255, 36, 87, 37),
+                ),
+                // Icon(
+                //   Icons.bookmark,
+                //   size: 28,
+                // ),
+                SizedBox(
+                  width: 12,
+                ),
+                Text(
+                  'Al-Buruj',
+                  style: TextStyle(
+                      fontWeight: FontWeight.bold,
+                      fontSize: 20,
+                      color: Color.fromARGB(255, 0, 0, 0)),
+                ),
+                ],
+                ),
+                Divider(
+                  thickness: 0.8,
+                ),
+                Text(
+                  '(Gugusan Bintang) surat ke-85 terdiri dari 22 ayat',
+                  textAlign: TextAlign.left,
+                  style: TextStyle(
+                  fontSize: 14,
+                  color: Color.fromARGB(255, 0, 0, 0))),
+              ],
+            ),
+          ),
+          
+          const SizedBox(
+            height: 16,
+          ),
+
+          // AL INSYIQAQ
+          ElevatedButton(
+            onPressed: () {
+<<<<<<< HEAD
+              Navigator.push(
+                  context,
+                  MaterialPageRoute(
+                      builder: (context) => const AlfajrPage()));
+            },
+            style: ElevatedButton.styleFrom(
+              padding: const EdgeInsets.symmetric(horizontal: 20,vertical: 10),
+              backgroundColor: const Color.fromARGB(255, 255, 255, 255),
+              minimumSize: const Size(250, 50),
+=======
+              Navigator.push(context,
+                  MaterialPageRoute(builder: (context) => const AlInsyiqaq()));
+            },
+            style: ElevatedButton.styleFrom(
+              padding: const EdgeInsetsDirectional.symmetric(
+                  vertical: 10, horizontal: 20),
+              backgroundColor: const Color(0xFFFFFFFF),
+              minimumSize: const Size(350, 60),
+>>>>>>> main
+              shape: RoundedRectangleBorder(
+                borderRadius: BorderRadius.circular(10),
+              ),
+            ),
+            child: const Column(
+              crossAxisAlignment: CrossAxisAlignment.start,
+              children: [
+                Row(
+<<<<<<< HEAD
+                  children:[
+                // SizedBox(
+                //   width: 10,
+                // ),
+                Image(
+                  image: AssetImage(
+                    'assets/images/logo.png',
+                  ),
+                  width: 36,
+                  color: Color.fromARGB(255, 36, 87, 37),
+                ),
+                // Icon(
+                //   Icons.bookmark,
+                //   size: 28,
+                // ),
+                SizedBox(
+                  width: 12,
+                ),
+                Text(
+                  'Al-fajr',
+                  style: TextStyle(
+                      fontWeight: FontWeight.bold,
+                      fontSize: 20,
+                      color: Color.fromARGB(255, 0, 0, 0)),
+=======
                   children: [
                     SizedBox(
                         // width: 10,
@@ -475,10 +647,23 @@ class JuzzAmma extends StatelessWidget {
                 Text(
                   "(Terbelah) surat ke-84 terdiri dari 25 ayat",
                   style: TextStyle(color: Color(0xD95C5470), fontSize: 14),
+>>>>>>> main
                 ),
+                ],
+                ),
+                Divider(
+                  thickness: 0.8,
+                ),
+                Text(
+                  '(Fajar) surat ke-89 terdiri dari 30 ayat',
+                  textAlign: TextAlign.left,
+                  style: TextStyle(
+                  fontSize: 14,
+                  color: Color.fromARGB(255, 0, 0, 0))),
               ],
             ),
           ),
+          
           const SizedBox(
             height: 16,
           ),
@@ -486,6 +671,17 @@ class JuzzAmma extends StatelessWidget {
           // AL GHASYIYAH
           ElevatedButton(
             onPressed: () {
+<<<<<<< HEAD
+              Navigator.push(
+                  context,
+                  MaterialPageRoute(
+                      builder: (context) => const AddhuhaPage()));
+            },
+            style: ElevatedButton.styleFrom(
+              padding: const EdgeInsets.symmetric(horizontal: 20,vertical: 10),
+              backgroundColor: const Color.fromARGB(255, 255, 255, 255),
+              minimumSize: const Size(250, 50),
+=======
               Navigator.push(context,
                   MaterialPageRoute(builder: (context) => const AlGhasyiyah()));
             },
@@ -494,6 +690,7 @@ class JuzzAmma extends StatelessWidget {
                   vertical: 10, horizontal: 20),
               backgroundColor: const Color(0xFFFFFFFF),
               minimumSize: const Size(350, 60),
+>>>>>>> main
               shape: RoundedRectangleBorder(
                 borderRadius: BorderRadius.circular(10),
               ),
@@ -502,6 +699,32 @@ class JuzzAmma extends StatelessWidget {
               crossAxisAlignment: CrossAxisAlignment.start,
               children: [
                 Row(
+<<<<<<< HEAD
+                  children:[
+                // SizedBox(
+                //   width: 10,
+                // ),
+                Image(
+                  image: AssetImage(
+                    'assets/images/logo.png',
+                  ),
+                  width: 36,
+                  color: Color.fromARGB(255, 36, 87, 37),
+                ),
+                // Icon(
+                //   Icons.bookmark,
+                //   size: 28,
+                // ),
+                SizedBox(
+                  width: 12,
+                ),
+                Text(
+                  'Ad-Dhuha',
+                  style: TextStyle(
+                      fontWeight: FontWeight.bold,
+                      fontSize: 20,
+                      color: Color.fromARGB(255, 0, 0, 0)),
+=======
                   children: [
                     SizedBox(
                         // width: 10,
@@ -536,10 +759,23 @@ class JuzzAmma extends StatelessWidget {
                 Text(
                   "(Hari Pembalasan) surat ke-88 terdiri dari 26 ayat",
                   style: TextStyle(color: Color(0xD95C5470), fontSize: 14),
+>>>>>>> main
                 ),
+                ],
+                ),
+                Divider(
+                  thickness: 0.8,
+                ),
+                Text(
+                  '(Waktu Dhuha atau Waktu Matahari Sepenggalahan Naik) surat ke-93 terdiri dari 11 ayat',
+                  textAlign: TextAlign.left,
+                  style: TextStyle(
+                  fontSize: 14,
+                  color: Color.fromARGB(255, 0, 0, 0))),
               ],
             ),
           ),
+          
           const SizedBox(
             height: 16,
           ),
@@ -547,6 +783,17 @@ class JuzzAmma extends StatelessWidget {
           // AL LAIL
           ElevatedButton(
             onPressed: () {
+<<<<<<< HEAD
+              Navigator.push(
+                  context,
+                  MaterialPageRoute(
+                      builder: (context) => const AlqadrPage()));
+            },
+            style: ElevatedButton.styleFrom(
+              padding: const EdgeInsets.symmetric(horizontal: 20,vertical: 10),
+              backgroundColor: const Color.fromARGB(255, 255, 255, 255),
+              minimumSize: const Size(250, 50),
+=======
               Navigator.push(context,
                   MaterialPageRoute(builder: (context) => const AlLail()));
             },
@@ -555,6 +802,7 @@ class JuzzAmma extends StatelessWidget {
                   vertical: 10, horizontal: 20),
               backgroundColor: const Color(0xFFFFFFFF),
               minimumSize: const Size(350, 60),
+>>>>>>> main
               shape: RoundedRectangleBorder(
                 borderRadius: BorderRadius.circular(10),
               ),
@@ -563,6 +811,32 @@ class JuzzAmma extends StatelessWidget {
               crossAxisAlignment: CrossAxisAlignment.start,
               children: [
                 Row(
+<<<<<<< HEAD
+                  children:[
+                // SizedBox(
+                //   width: 10,
+                // ),
+                Image(
+                  image: AssetImage(
+                    'assets/images/logo.png',
+                  ),
+                  width: 36,
+                  color: Color.fromARGB(255, 36, 87, 37),
+                ),
+                // Icon(
+                //   Icons.bookmark,
+                //   size: 28,
+                // ),
+                SizedBox(
+                  width: 12,
+                ),
+                Text(
+                  'Al-Qadr',
+                  style: TextStyle(
+                      fontWeight: FontWeight.bold,
+                      fontSize: 20,
+                      color: Color.fromARGB(255, 0, 0, 0)),
+=======
                   children: [
                     SizedBox(
                         // width: 10,
@@ -597,10 +871,39 @@ class JuzzAmma extends StatelessWidget {
                 Text(
                   "(Malam) surat ke-92 terdiri dari 21 ayat",
                   style: TextStyle(color: Color(0xD95C5470), fontSize: 14),
+>>>>>>> main
                 ),
+                ],
+                ),
+                Divider(
+                  thickness: 0.8,
+                ),
+                Text(
+                  '(Kemuliaan) surat ke-97 terdiri dari 5 ayat',
+                  textAlign: TextAlign.left,
+                  style: TextStyle(
+                  fontSize: 14,
+                  color: Color.fromARGB(255, 0, 0, 0))),
               ],
             ),
           ),
+<<<<<<< HEAD
+          
+          const SizedBox(
+            height: 16,
+          ),
+          ElevatedButton(
+            onPressed: () {
+              Navigator.push(
+                  context,
+                  MaterialPageRoute(
+                      builder: (context) => const AlqariahPage()));
+            },
+            style: ElevatedButton.styleFrom(
+              padding: const EdgeInsets.symmetric(horizontal: 20,vertical: 10),
+              backgroundColor: const Color.fromARGB(255, 255, 255, 255),
+              minimumSize: const Size(250, 50),
+=======
           const SizedBox(
             height: 16,
           ),
@@ -616,6 +919,7 @@ class JuzzAmma extends StatelessWidget {
                   vertical: 10, horizontal: 20),
               backgroundColor: const Color(0xFFFFFFFF),
               minimumSize: const Size(350, 60),
+>>>>>>> main
               shape: RoundedRectangleBorder(
                 borderRadius: BorderRadius.circular(10),
               ),
@@ -624,6 +928,62 @@ class JuzzAmma extends StatelessWidget {
               crossAxisAlignment: CrossAxisAlignment.start,
               children: [
                 Row(
+<<<<<<< HEAD
+                  children:[
+                // SizedBox(
+                //   width: 10,
+                // ),
+                Image(
+                  image: AssetImage(
+                    'assets/images/logo.png',
+                  ),
+                  width: 36,
+                  color: Color.fromARGB(255, 36, 87, 37),
+                ),
+                // Icon(
+                //   Icons.bookmark,
+                //   size: 28,
+                // ),
+                SizedBox(
+                  width: 12,
+                ),
+                Text(
+                  'Al-Qariah',
+                  style: TextStyle(
+                      fontWeight: FontWeight.bold,
+                      fontSize: 20,
+                      color: Color.fromARGB(255, 0, 0, 0)),
+                ),
+                ],
+                ),
+                Divider(
+                  thickness: 0.8,
+                ),
+                Text(
+                  '(Hari Kiamat) surat ke-101 terdiri dari 11 ayat',
+                  textAlign: TextAlign.left,
+                  style: TextStyle(
+                  fontSize: 14,
+                  color: Color.fromARGB(255, 0, 0, 0))),
+              ],
+            ),
+          ),
+          
+          const SizedBox(
+            height: 16,
+          ),
+          ElevatedButton(
+            onPressed: () {
+              Navigator.push(
+                  context,
+                  MaterialPageRoute(
+                      builder: (context) => const AlfilPage()));
+            },
+            style: ElevatedButton.styleFrom(
+              padding: const EdgeInsets.symmetric(horizontal: 20,vertical: 10),
+              backgroundColor: const Color.fromARGB(255, 255, 255, 255),
+              minimumSize: const Size(250, 50),
+=======
                   children: [
                     SizedBox(
                         // width: 10,
@@ -677,6 +1037,7 @@ class JuzzAmma extends StatelessWidget {
                   vertical: 10, horizontal: 20),
               backgroundColor: const Color(0xFFFFFFFF),
               minimumSize: const Size(350, 60),
+>>>>>>> main
               shape: RoundedRectangleBorder(
                 borderRadius: BorderRadius.circular(10),
               ),
@@ -685,6 +1046,62 @@ class JuzzAmma extends StatelessWidget {
               crossAxisAlignment: CrossAxisAlignment.start,
               children: [
                 Row(
+<<<<<<< HEAD
+                  children:[
+                // SizedBox(
+                //   width: 10,
+                // ),
+                Image(
+                  image: AssetImage(
+                    'assets/images/logo.png',
+                  ),
+                  width: 36,
+                  color: Color.fromARGB(255, 36, 87, 37),
+                ),
+                // Icon(
+                //   Icons.bookmark,
+                //   size: 28,
+                // ),
+                SizedBox(
+                  width: 12,
+                ),
+                Text(
+                  'Al-Fil',
+                  style: TextStyle(
+                      fontWeight: FontWeight.bold,
+                      fontSize: 20,
+                      color: Color.fromARGB(255, 0, 0, 0)),
+                ),
+                ],
+                ),
+                Divider(
+                  thickness: 0.8,
+                ),
+                Text(
+                  '(Gajah) surat ke-105 terdiri dari 5 ayat ',
+                  textAlign: TextAlign.left,
+                  style: TextStyle(
+                  fontSize: 14,
+                  color: Color.fromARGB(255, 0, 0, 0))),
+              ],
+            ),
+          ),
+          
+          const SizedBox(
+            height: 16,
+          ),
+          ElevatedButton(
+            onPressed: () {
+              Navigator.push(
+                  context,
+                  MaterialPageRoute(
+                      builder: (context) => const AlfalaqPage()));
+            },
+            style: ElevatedButton.styleFrom(
+              padding: const EdgeInsets.symmetric(horizontal: 20,vertical: 10),
+              backgroundColor: const Color.fromARGB(255, 255, 255, 255),
+              minimumSize: const Size(250, 50),
+=======
                   children: [
                     SizedBox(
                         // width: 10,
@@ -738,6 +1155,7 @@ class JuzzAmma extends StatelessWidget {
                   vertical: 10, horizontal: 20),
               backgroundColor: const Color(0xFFFFFFFF),
               minimumSize: const Size(350, 60),
+>>>>>>> main
               shape: RoundedRectangleBorder(
                 borderRadius: BorderRadius.circular(10),
               ),
@@ -746,6 +1164,48 @@ class JuzzAmma extends StatelessWidget {
               crossAxisAlignment: CrossAxisAlignment.start,
               children: [
                 Row(
+<<<<<<< HEAD
+                  children:[
+                // SizedBox(
+                //   width: 10,
+                // ),
+                Image(
+                  image: AssetImage(
+                    'assets/images/logo.png',
+                  ),
+                  width: 36,
+                  color: Color.fromARGB(255, 36, 87, 37),
+                ),
+                // Icon(
+                //   Icons.bookmark,
+                //   size: 28,
+                // ),
+                SizedBox(
+                  width: 12,
+                ),
+                Text(
+                  'Al-falaq',
+                  style: TextStyle(
+                      fontWeight: FontWeight.bold,
+                      fontSize: 20,
+                      color: Color.fromARGB(255, 0, 0, 0)),
+                ),
+                ],
+                ),
+                Divider(
+                  thickness: 0.8,
+                ),
+                Text(
+                  ' (Waktu Subuh) surat ke-113 terdiri dari 5 ayat',
+                  textAlign: TextAlign.left,
+                  style: TextStyle(
+                  fontSize: 14,
+                  color: Color.fromARGB(255, 0, 0, 0))),
+              ],
+            ),
+          ),
+          
+=======
                   children: [
                     SizedBox(
                         // width: 10,
@@ -845,10 +1305,14 @@ class JuzzAmma extends StatelessWidget {
               ],
             ),
           ),
+>>>>>>> main
           const SizedBox(
             height: 16,
           ),
         ],
+<<<<<<< HEAD
+      ),
+=======
 =======
       child: Container(
         padding: const EdgeInsets.symmetric(vertical: 0, horizontal: 0),
@@ -1885,6 +2349,7 @@ class JuzzAmma extends StatelessWidget {
 
           ],
         ),
+>>>>>>> main
     )
     );
 =======
