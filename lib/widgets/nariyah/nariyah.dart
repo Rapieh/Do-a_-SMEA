@@ -47,13 +47,13 @@ class Nariyah extends StatelessWidget {
           //     color: Color.fromARGB(255, 38, 105, 40),
           //   ),
           // ),
-          Text(
-            'Allâhumma shalli shalâtan kâmilatan wa sallim salâman tâmman `alâ sayyidinâ Muḫammadinil-ladzi tanḫallu bihil-`uqadu wa tanfariju bihil-kurabu wa tuqdlâ bihil-ḫawâiju wa tunâlu bihir-raghâ’ibu wa ḫusnul-khawâtimi wa yustasqal-ghamâmu biwajhihil-karîmi wa `alâ âlihi wa shaḫbihi fî kulli lamḫatin wa nafasin bi`adadi kulli ma`lûmilak(a)',
-            style: TextStyle(
-              fontSize: 18,
-              color: Color.fromARGB(255, 38, 105, 40),
-            ),
-          ),
+          // Text(
+          //   'Allâhumma shalli shalâtan kâmilatan wa sallim salâman tâmman `alâ sayyidinâ Muḫammadinil-ladzi tanḫallu bihil-`uqadu wa tanfariju bihil-kurabu wa tuqdlâ bihil-ḫawâiju wa tunâlu bihir-raghâ’ibu wa ḫusnul-khawâtimi wa yustasqal-ghamâmu biwajhihil-karîmi wa `alâ âlihi wa shaḫbihi fî kulli lamḫatin wa nafasin bi`adadi kulli ma`lûmilak(a)',
+          //   style: TextStyle(
+          //     fontSize: 18,
+          //     color: Color.fromARGB(255, 38, 105, 40),
+          //   ),
+          // ),
           SizedBox(
             height: 20,
           ),

@@ -533,15 +533,6 @@ class _AsmaulHusnaPageState extends State<AsmaulHusnaPage> {
         child: Column(
           crossAxisAlignment: CrossAxisAlignment.stretch,
           children: [
-            // Expanded(
-            //   child: ListView.builder(
-            //     itemCount: bismillah.length,
-            //     itemBuilder: (context, index) {
-            //       final Map<String, String> listBismillah = bismillah[index];
-            //       return Bismillah(listBismillah: listBismillah);
-            //     },
-            //   ),
-            // ),
             Expanded(
               child: ListView.builder(
                 itemCount: listAsmaulHusna.length,

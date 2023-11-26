@@ -47,13 +47,13 @@ class AyatKursi extends StatelessWidget {
           //     color: Color.fromARGB(255, 38, 105, 40),
           //   ),
           // ),
-          Text(
-            'Allahu laa ilaaha illaa huwal hayyul qoyyuum, laa takhudzuhuu sinatuw walaa naum, la huu maa fis samaawaati wa maa fil ardh, mann dzal ladzii yasyfau indahuu illa biidznih, ya lamu maa baina aidiihim wa maa kholfahum, wa laa yuhiituuna bisyai im min ilmihii illaa bimaa syaa, wasia kursiyyuhus samaawaati walardh, wa laa yaudluhuu hifdzuhumaa, wa huwal aliyyul adziim',
-            style: TextStyle(
-              fontSize: 20,
-              color: Color.fromARGB(255, 38, 105, 40),
-            ),
-          ),
+          // Text(
+          //   'Allahu laa ilaaha illaa huwal hayyul qoyyuum, laa takhudzuhuu sinatuw walaa naum, la huu maa fis samaawaati wa maa fil ardh, mann dzal ladzii yasyfau indahuu illa biidznih, ya lamu maa baina aidiihim wa maa kholfahum, wa laa yuhiituuna bisyai im min ilmihii illaa bimaa syaa, wasia kursiyyuhus samaawaati walardh, wa laa yaudluhuu hifdzuhumaa, wa huwal aliyyul adziim',
+          //   style: TextStyle(
+          //     fontSize: 20,
+          //     color: Color.fromARGB(255, 38, 105, 40),
+          //   ),
+          // ),
           SizedBox(
             height: 16,
           ),

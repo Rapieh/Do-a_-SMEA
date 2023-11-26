@@ -40,33 +40,33 @@ class AsmaulHusnaCard extends StatelessWidget {
               ),
             ],
           ),
-          Row(
-            children: [
-              IconButton(
-                onPressed: () {
-                  isPressed = !isPressed;
-                },
-                icon: isPressed
-                    ? const Icon(
-                        Icons.favorite,
-                        size: 24,
-                        color: Color.fromARGB(255, 38, 105, 40),
-                      )
-                    : const Icon(
-                        Icons.favorite_border,
-                        size: 24,
-                        color: Color.fromARGB(255, 38, 105, 40),
-                      ),
-              ),
-              Text(
-                nariyah['latin'].toString(),
-                style: const TextStyle(
-                  fontSize: 17,
-                  color: Color.fromARGB(255, 38, 105, 40),
-                ),
-              ),
-            ],
-          ),
+          // Row(
+          //   children: [
+          //     IconButton(
+          //       onPressed: () {
+          //         isPressed = !isPressed;
+          //       },
+          //       icon: isPressed
+          //           ? const Icon(
+          //               Icons.favorite,
+          //               size: 24,
+          //               color: Color.fromARGB(255, 38, 105, 40),
+          //             )
+          //           : const Icon(
+          //               Icons.favorite_border,
+          //               size: 24,
+          //               color: Color.fromARGB(255, 38, 105, 40),
+          //             ),
+          //     ),
+          //     Text(
+          //       nariyah['latin'].toString(),
+          //       style: const TextStyle(
+          //         fontSize: 17,
+          //         color: Color.fromARGB(255, 38, 105, 40),
+          //       ),
+          //     ),
+          //   ],
+          // ),
           Row(
             children: [
               const SizedBox(

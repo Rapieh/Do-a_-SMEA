@@ -7,14 +7,6 @@ class AsmaulHusnaCard extends StatelessWidget {
   final int number;
   final Map<String, String> asmaulHusna;
   static bool isPressed = false;
-  // IconSatu() {
-  //   const Icon(
-  //     Icons.favorite_border,
-  //     size: 24,
-  //     color: Color.fromARGB(255, 38, 105, 40),
-  //   );
-  //   return IconSatu();
-  // }
 
   // ignore: non_constant_identifier_names
   IconDua() {
@@ -58,74 +50,23 @@ class AsmaulHusnaCard extends StatelessWidget {
               ),
             ],
           ),
-          // Row(
-          //   children: [
-          //     IconButton(
-          //       onPressed: () {
-          //         IconDua();
-          //         // () {
-          //         //   const Icon(
-          //         //     Icons.favorite,
-          //         //     size: 24,
-          //         //     color: Color.fromARGB(255, 38, 105, 40),
-          //         //   );
-          //         // };
-          //         // isPressed = !isPressed;
-          //       },
-          //       icon:
-          //           // isPressed
-          //           // ? const Icon(
-          //           //     Icons.favorite,
-          //           //     size: 24,
-          //           //     color: Color.fromARGB(255, 38, 105, 40),
-          //           //   )
-          //           // :
-          //           const Icon(
-          //         Icons.favorite_border,
-          //         size: 24,
-          //         color: Color.fromARGB(255, 38, 105, 40),
-          //       ),
-          //     ),
-          //     Text(
-          //       asmaulHusna['latin'].toString(),
-          //       style: const TextStyle(
-          //         fontSize: 20,
-          //         color: Color.fromARGB(255, 38, 105, 40),
-          //       ),
-          //     ),
-          //   ],
-          // ),
           const SizedBox(
             height: 26,
           ),
-          Row(
+          Column(
             children: [
-              const SizedBox(
-                width: 0,
-              ),
-              Column(
-                children: [
-                  Text(
-                    'Artinya: ${asmaulHusna['meaning'].toString()}',
-                    maxLines: 2,
-                    style: const TextStyle(
-                        fontSize: 16, fontWeight: FontWeight.w400),
-                  ),
-                  const Divider(
-                    thickness: 2,
-                    color: Color.fromARGB(255, 25, 24, 24),
-                  ),
-                ],
+              Text(
+                'Artinya: ${asmaulHusna['meaning'].toString()}',
+                style: const TextStyle(
+                  fontSize: 16,
+                  fontWeight: FontWeight.w400,
+                ),
               ),
             ],
           ),
           const SizedBox(
             height: 14,
           ),
-          // const Divider(
-          //   thickness: 1,
-          //   color: Colors.black,
-          // )
         ],
       ),
     );

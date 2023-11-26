@@ -50,32 +50,6 @@ class ALWaqiahCard extends StatelessWidget {
                 style:
                     const TextStyle(fontSize: 16, fontWeight: FontWeight.w400),
               ),
-              // IconButton(
-              //   onPressed: () {
-              //     IconDua();
-              // () {
-              //   const Icon(
-              //     Icons.favorite,
-              //     size: 24,
-              //     color: Color.fromARGB(255, 38, 105, 40),
-              //   );
-              // };
-              // isPressed = !isPressed;
-              // },
-              // icon:
-              // isPressed
-              // ? const Icon(
-              //     Icons.favorite,
-              //     size: 24,
-              //     color: Color.fromARGB(255, 38, 105, 40),
-              //   )
-              // :
-              //     const Icon(
-              //   Icons.favorite_border,
-              //   size: 24,
-              //   color: Color.fromARGB(255, 38, 105, 40),
-              // ),
-              // ),
             ],
           ),
           const SizedBox(
@@ -98,18 +72,6 @@ class ALWaqiahCard extends StatelessWidget {
               )
             ],
           ),
-
-          // Column(
-          //   children: [
-          //     Text(
-          //       alWaqiah['latin'].toString(),
-          //       style: const TextStyle(
-          //         fontSize: 18,
-          //         color: Color.fromARGB(255, 38, 105, 40),
-          //       ),
-          //     ),
-          //   ],
-          // ),
           const SizedBox(
             height: 30,
           ),
@@ -122,22 +84,11 @@ class ALWaqiahCard extends StatelessWidget {
                 style:
                     const TextStyle(fontSize: 16, fontWeight: FontWeight.w400),
               ),
-              // const Divider(
-              //   thickness: 2,
-              //   color: Color.fromARGB(255, 25, 24, 24),
-              // ),
             ],
           ),
           const SizedBox(
             height: 16,
           )
-          // const SizedBox(
-          //   height: 14,
-          // ),
-          // const Divider(
-          //   thickness: 1,
-          //   color: Colors.black,
-          // )
         ],
       ),
     );

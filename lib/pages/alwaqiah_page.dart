@@ -146,6 +146,12 @@ class _AlWaqiahPageState extends State<AlWaqiahPage> {
       "latin": "Wa lahmi tairim mimmaa yashtahuun",
       "meaning": 'dan daging burung apa pun yang mereka inginkan.',
     },
+    // ayat 22
+    {
+      "arabic": "وَحُوۡرٌ عِيۡنٌۙ",
+      "latin": "Wa huurun'iin",
+      "meaning": 'Dan ada bidadari-bidadari yang bermata indah,',
+    },
     // ayat 23
     {
       "arabic": "كَاَمۡثَالِ اللُّـؤۡلُـوٴِالۡمَكۡنُوۡنِ‌ۚ",
@@ -342,11 +348,11 @@ class _AlWaqiahPageState extends State<AlWaqiahPage> {
       "latin": "Fa māli`ụna min-hal-buṭụn",
       "meaning": "Dan akan memenuhi perutmu dengannya",
     },
-    {
-      "arabic": "فَمَالِـُٔونَ مِنْهَا ٱلْبُطُونَ",
-      "latin": "latinnya',Fa māli`ụna min-hal-buṭụn",
-      "meaning": "Dan aku memenuhi perutmu dengannya",
-    },
+    // {
+    //   "arabic": "فَمَالِـُٔونَ مِنْهَا ٱلْبُطُونَ",
+    //   "latin": "latinnya',Fa māli`ụna min-hal-buṭụn",
+    //   "meaning": "Dan aku memenuhi perutmu dengannya",
+    // },
     {
       "arabic": "فَشَٰرِبُونَ عَلَيْهِ مِنَ ٱلْحَمِيمِ",
       "latin": "Fa syāribụna 'alaihi minal-ḥamīm",
@@ -411,8 +417,9 @@ class _AlWaqiahPageState extends State<AlWaqiahPage> {
       "meaning":
           "Kamukah yang menumbuhkannya atau Kamikah yang menumbuhkannya?",
     },
+    // ayat 65
     {
-      "arabic": "لَوْ نَشَآءُ لَجَعَلْنَٰهُ حُطَٰمًا فَظَلْتُمْ",
+      "arabic": "لَوۡ نَشَآءُ لَجَـعَلۡنٰهُ حُطَامًا فَظَلۡتُمۡ تَفَكَّهُوۡنَ",
       "latin": "Lau nasyā`u laja'alnāhu huṭāman fa ẓaltum tafakkahụn",
       "meaning":
           "Kalau Kami kehendaki, benar-benar Kami jadikan dia hancur dan kering, maka jadilah kamu heran dan tercengang",
@@ -434,8 +441,10 @@ class _AlWaqiahPageState extends State<AlWaqiahPage> {
       "latin": " A fa ra`aitumul-mā`allażī tasyrabụn",
       "meaning": "Maka terangkanlah kepadaku tentang air yang kamu minum",
     },
+    // ayat 69
     {
-      "arabic": "ءَأَنتُمْ أَنزَلْتُمُوهُ مِنَ ٱلْمُزْنِ أَمْ نَحْنُ",
+      "arabic":
+          "ءَاَنۡـتُمۡ اَنۡزَلۡـتُمُوۡهُ مِنَ الۡمُزۡنِ اَمۡ نَحۡنُ الۡمُنۡزِلُوۡنَ",
       "latin": "A antum anzaltumụhu minal-muzni am naḥnul-munzilụn",
       "meaning": "Kamukah yang menurunkannya atau Kamikah yang menurunkannya?",
     },

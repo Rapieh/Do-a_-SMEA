@@ -47,18 +47,15 @@ class Sebelum extends StatelessWidget {
           //     color: Color.fromARGB(255, 38, 105, 40),
           //   ),
           // ),
-          Text(
-            "Rodhitu billahirobba, wabil islaamidina, wabi-muhammadin nabiyyaw warosula. Robbi zidnii 'ilmaa warzuqnii fahmaa",
-            style: TextStyle(
-              fontSize: 20,
-              color: Color.fromARGB(255, 38, 105, 40),
-            ),
-          ),
+          // Text(
+          //   "Rodhitu billahirobba, wabil islaamidina, wabi-muhammadin nabiyyaw warosula. Robbi zidnii 'ilmaa warzuqnii fahmaa",
+          //   style: TextStyle(
+          //     fontSize: 20,
+          //     color: Color.fromARGB(255, 38, 105, 40),
+          //   ),
+          // ),
           SizedBox(
             height: 12,
-          ),
-          SizedBox(
-            width: 0,
           ),
           Column(
             children: [
