@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
 
-class AnNaasCard extends StatelessWidget {
-  const AnNaasCard({super.key, required this.anNaas, required this.number});
+class AlKautsarCard extends StatelessWidget {
+  const AlKautsarCard({super.key, required this.alKautsar, required this.number});
 
   final int number;
-  final Map<String, String> anNaas;
+  final Map<String, String> alKautsar;
   static bool isPressed = false;
 
   // ignore: non_constant_identifier_names
@@ -54,7 +54,7 @@ class AnNaasCard extends StatelessWidget {
                 margin: const EdgeInsets.symmetric(),
                 // decoration: const BoxDecoration(color: Colors.grey),
                 child: Text(
-                  anNaas['arabic'].toString(),
+                  alKautsar['arabic'].toString(),
                   textAlign: TextAlign.right,
                   style: const TextStyle(
                     fontSize: 28,
@@ -71,7 +71,7 @@ class AnNaasCard extends StatelessWidget {
             crossAxisAlignment: CrossAxisAlignment.stretch,
             children: [
               Text(
-                'Artinya: ${anNaas['meaning'].toString()}',
+                'Artinya: ${alKautsar['meaning'].toString()}',
                 textAlign: TextAlign.left,
                 style:
                     const TextStyle(fontSize: 16, fontWeight: FontWeight.w400),

@@ -2,6 +2,9 @@ import 'package:flutter/material.dart';
 import 'package:hukumanbuersya/pages/page-amma-ravi/al_balad_page.dart';
 import 'package:hukumanbuersya/pages/page-amma-ravi/al_bayyinah_page.dart';
 import 'package:hukumanbuersya/pages/page-amma-ravi/al_insyirah_page.dart';
+import 'package:hukumanbuersya/pages/page-amma-ravi/al_kafirun_page.dart';
+import 'package:hukumanbuersya/pages/page-amma-ravi/al_kautsar_page.dart';
+import 'package:hukumanbuersya/pages/page-amma-ravi/al_maun_page.dart';
 import 'package:hukumanbuersya/pages/page-amma-ravi/al_mutaffifin_page.dart';
 import 'package:hukumanbuersya/pages/page-amma-ravi/an_naas.dart';
 import 'package:hukumanbuersya/pages/page-amma-ravi/an_nashr_page.dart';
@@ -1884,14 +1887,13 @@ class JuzzAmma extends StatelessWidget {
             const SizedBox(
               height: 16,
             ),
-
-            // AN NAAS
+            // AL MAUN
             ElevatedButton(
               onPressed: () {
                 Navigator.push(
                     context,
                     MaterialPageRoute(
-                        builder: (context) => const AnNaasPage()));
+                        builder: (context) => const AlMaunPage()));
               },
               style: ElevatedButton.styleFrom(
                 padding:
@@ -1923,7 +1925,7 @@ class JuzzAmma extends StatelessWidget {
                               width: 12,
                             ),
                             Text(
-                              'An-Naas',
+                              "Al-MA'un",
                               style: TextStyle(
                                   fontWeight: FontWeight.bold,
                                   fontSize: 20,
@@ -1941,7 +1943,7 @@ class JuzzAmma extends StatelessWidget {
                       crossAxisAlignment: CrossAxisAlignment.stretch,
                       children: [
                         Text(
-                          '(Umat Manusia) surat ke-114 terdiri dari 6 ayat',
+                          '(Barang-barang yang Berguna) surat ke-107 terdiri dari 7 ayat',
                           textAlign: TextAlign.left,
                           style:
                               TextStyle(color: Color(0xD95C5470), fontSize: 14),
@@ -1958,7 +1960,152 @@ class JuzzAmma extends StatelessWidget {
             const SizedBox(
               height: 16,
             ),
-
+            // AL KAUTSAR
+            ElevatedButton(
+              onPressed: () {
+                Navigator.push(
+                    context,
+                    MaterialPageRoute(
+                        builder: (context) => const AlKautsarPage()));
+              },
+              style: ElevatedButton.styleFrom(
+                padding:
+                    const EdgeInsets.symmetric(vertical: 10, horizontal: 16),
+                backgroundColor: const Color.fromARGB(255, 255, 255, 255),
+                minimumSize: const Size(350, 60),
+                shape: RoundedRectangleBorder(
+                  borderRadius: BorderRadius.circular(10),
+                ),
+              ),
+              child: Container(
+                padding: const EdgeInsets.symmetric(horizontal: 0),
+                child: const Column(
+                  crossAxisAlignment: CrossAxisAlignment.stretch,
+                  children: [
+                    Row(
+                      mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                      children: [
+                        Row(
+                          children: [
+                            Image(
+                              image: AssetImage(
+                                'assets/images/logo.png',
+                              ),
+                              width: 36,
+                              color: Color.fromARGB(255, 36, 87, 37),
+                            ),
+                            SizedBox(
+                              width: 12,
+                            ),
+                            Text(
+                              'Al-Kautsar',
+                              style: TextStyle(
+                                  fontWeight: FontWeight.bold,
+                                  fontSize: 20,
+                                  color: Color(0xD95C5470)),
+                            ),
+                          ],
+                        ),
+                      ],
+                    ),
+                    Divider(
+                      thickness: 1,
+                      color: Colors.green,
+                    ),
+                    Column(
+                      crossAxisAlignment: CrossAxisAlignment.stretch,
+                      children: [
+                        Text(
+                          '(Nikmat yang Banyak atau Berlimpah) surat ke-108 terdiri dari 3 ayat',
+                          textAlign: TextAlign.left,
+                          style:
+                              TextStyle(color: Color(0xD95C5470), fontSize: 14),
+                        ),
+                      ],
+                    ),
+                    SizedBox(
+                      height: 10,
+                    )
+                  ],
+                ),
+              ),
+            ),
+            const SizedBox(
+              height: 16,
+            ),
+            // AL KAFIRUN
+            ElevatedButton(
+              onPressed: () {
+                Navigator.push(
+                    context,
+                    MaterialPageRoute(
+                        builder: (context) => const AlKafirunPage()));
+              },
+              style: ElevatedButton.styleFrom(
+                padding:
+                    const EdgeInsets.symmetric(vertical: 10, horizontal: 16),
+                backgroundColor: const Color.fromARGB(255, 255, 255, 255),
+                minimumSize: const Size(350, 60),
+                shape: RoundedRectangleBorder(
+                  borderRadius: BorderRadius.circular(10),
+                ),
+              ),
+              child: Container(
+                padding: const EdgeInsets.symmetric(horizontal: 0),
+                child: const Column(
+                  crossAxisAlignment: CrossAxisAlignment.stretch,
+                  children: [
+                    Row(
+                      mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                      children: [
+                        Row(
+                          children: [
+                            Image(
+                              image: AssetImage(
+                                'assets/images/logo.png',
+                              ),
+                              width: 36,
+                              color: Color.fromARGB(255, 36, 87, 37),
+                            ),
+                            SizedBox(
+                              width: 12,
+                            ),
+                            Text(
+                              'Al-Kafirun',
+                              style: TextStyle(
+                                  fontWeight: FontWeight.bold,
+                                  fontSize: 20,
+                                  color: Color(0xD95C5470)),
+                            ),
+                          ],
+                        ),
+                      ],
+                    ),
+                    Divider(
+                      thickness: 1,
+                      color: Colors.green,
+                    ),
+                    Column(
+                      crossAxisAlignment: CrossAxisAlignment.stretch,
+                      children: [
+                        Text(
+                          '(Orang-orang Kafir) surat ke-109 terdiri dari 6 ayat',
+                          textAlign: TextAlign.left,
+                          style:
+                              TextStyle(color: Color(0xD95C5470), fontSize: 14),
+                        ),
+                      ],
+                    ),
+                    SizedBox(
+                      height: 10,
+                    )
+                  ],
+                ),
+              ),
+            ),
+            const SizedBox(
+              height: 16,
+            ),
             // AN NASR
             ElevatedButton(
               onPressed: () {
@@ -2032,17 +2179,6 @@ class JuzzAmma extends StatelessWidget {
             const SizedBox(
               height: 16,
             ),
-            // bagiannya rizki
-            // bagiannya rizki
-            // bagiannya rizki
-
-            const SizedBox(
-              height: 20,
-            ),
-            const SizedBox(
-              height: 16,
-            ),
-
             ElevatedButton(
               onPressed: () {
                 Navigator.push(
@@ -2102,10 +2238,6 @@ class JuzzAmma extends StatelessWidget {
             const SizedBox(
               height: 16,
             ),
-            // bagiannya Alfi
-            // bagiannya Alfi
-            // bagiannya Alfi
-
             // AL IKHLAS
             ElevatedButton(
               onPressed: () {
@@ -2225,9 +2357,79 @@ class JuzzAmma extends StatelessWidget {
             const SizedBox(
               height: 16,
             ),
-            // bagiannya hasan
-            // bagiannya hasan
-            // bagiannya hasan
+            // AN NAAS
+            ElevatedButton(
+              onPressed: () {
+                Navigator.push(
+                    context,
+                    MaterialPageRoute(
+                        builder: (context) => const AnNaasPage()));
+              },
+              style: ElevatedButton.styleFrom(
+                padding:
+                    const EdgeInsets.symmetric(vertical: 10, horizontal: 16),
+                backgroundColor: const Color.fromARGB(255, 255, 255, 255),
+                minimumSize: const Size(350, 60),
+                shape: RoundedRectangleBorder(
+                  borderRadius: BorderRadius.circular(10),
+                ),
+              ),
+              child: Container(
+                padding: const EdgeInsets.symmetric(horizontal: 0),
+                child: const Column(
+                  crossAxisAlignment: CrossAxisAlignment.stretch,
+                  children: [
+                    Row(
+                      mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                      children: [
+                        Row(
+                          children: [
+                            Image(
+                              image: AssetImage(
+                                'assets/images/logo.png',
+                              ),
+                              width: 36,
+                              color: Color.fromARGB(255, 36, 87, 37),
+                            ),
+                            SizedBox(
+                              width: 12,
+                            ),
+                            Text(
+                              'An-Naas',
+                              style: TextStyle(
+                                  fontWeight: FontWeight.bold,
+                                  fontSize: 20,
+                                  color: Color(0xD95C5470)),
+                            ),
+                          ],
+                        ),
+                      ],
+                    ),
+                    Divider(
+                      thickness: 1,
+                      color: Colors.green,
+                    ),
+                    Column(
+                      crossAxisAlignment: CrossAxisAlignment.stretch,
+                      children: [
+                        Text(
+                          '(Umat Manusia) surat ke-114 terdiri dari 6 ayat',
+                          textAlign: TextAlign.left,
+                          style:
+                              TextStyle(color: Color(0xD95C5470), fontSize: 14),
+                        ),
+                      ],
+                    ),
+                    SizedBox(
+                      height: 10,
+                    )
+                  ],
+                ),
+              ),
+            ),
+            const SizedBox(
+              height: 16,
+            ),
           ],
         ),
       ),
