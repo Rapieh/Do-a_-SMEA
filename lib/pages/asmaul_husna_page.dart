@@ -287,6 +287,11 @@ class _AsmaulHusnaPageState extends State<AsmaulHusnaPage> {
     },
     {
       "arabic": 'الحَمِيْدُ',
+      "latin": 'Al Hamid',
+      "meaning": "Yang Maha Terpuji",
+    },
+    {
+      "arabic": 'الْمُحْصِيْ',
       "latin": 'Al Muhshii',
       "meaning": "Yang Maha Menghitung",
     },
