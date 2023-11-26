@@ -276,6 +276,7 @@ class JuzzAmma extends StatelessWidget {
                       color: Colors.green,
                     ),
                     Column(
+                      crossAxisAlignment: CrossAxisAlignment.stretch,
                       children: [
                         Text(
                           '(Menggulung) surat ke-81 terdiri dari 29 ayat',
@@ -408,6 +409,7 @@ class JuzzAmma extends StatelessWidget {
                       color: Colors.green,
                     ),
                     Column(
+                      crossAxisAlignment: CrossAxisAlignment.stretch,
                       children: [
                         Text(
                           '(Orang-orang yang Curang) surat ke-83 terdiri dari 36 ayat',
@@ -853,6 +855,7 @@ class JuzzAmma extends StatelessWidget {
                       color: Colors.green,
                     ),
                     Column(
+                      crossAxisAlignment: CrossAxisAlignment.stretch,
                       children: [
                         Text(
                           '(Negeri) surat ke-90 terdiri dari 20 ayat',
@@ -1106,6 +1109,7 @@ class JuzzAmma extends StatelessWidget {
                       color: Colors.green,
                     ),
                     Column(
+                      crossAxisAlignment: CrossAxisAlignment.stretch,
                       children: [
                         Text(
                           '(Melapangkan) surat ke-94 terdiri dari 8 ayat',
@@ -1356,6 +1360,7 @@ class JuzzAmma extends StatelessWidget {
                       color: Colors.green,
                     ),
                     Column(
+                      crossAxisAlignment: CrossAxisAlignment.stretch,
                       children: [
                         Text(
                           '(Pembuktian) surat ke-98 terdiri dari 8 ayat',
@@ -1608,6 +1613,7 @@ class JuzzAmma extends StatelessWidget {
                       color: Colors.green,
                     ),
                     Column(
+                      crossAxisAlignment: CrossAxisAlignment.stretch,
                       children: [
                         Text(
                           '(Bermegah-megahan) surat ke-102 terdiri dari 8 ayat',
@@ -1858,6 +1864,7 @@ class JuzzAmma extends StatelessWidget {
                       color: Colors.green,
                     ),
                     Column(
+                      crossAxisAlignment: CrossAxisAlignment.stretch,
                       children: [
                         Text(
                           '(Suku Quraisy) surat ke-106 terdiri dari 4 ayat',
@@ -1878,7 +1885,7 @@ class JuzzAmma extends StatelessWidget {
               height: 16,
             ),
 
-            // AL MUTAFFIFIN
+            // AN NAAS
             ElevatedButton(
               onPressed: () {
                 Navigator.push(
@@ -1931,6 +1938,7 @@ class JuzzAmma extends StatelessWidget {
                       color: Colors.green,
                     ),
                     Column(
+                      crossAxisAlignment: CrossAxisAlignment.stretch,
                       children: [
                         Text(
                           '(Umat Manusia) surat ke-114 terdiri dari 6 ayat',
@@ -1951,7 +1959,7 @@ class JuzzAmma extends StatelessWidget {
               height: 16,
             ),
 
-            // AL MUTAFFIFIN
+            // AN NASR
             ElevatedButton(
               onPressed: () {
                 Navigator.push(
@@ -1989,7 +1997,7 @@ class JuzzAmma extends StatelessWidget {
                               width: 12,
                             ),
                             Text(
-                              'Al-Ashr',
+                              'An-Nashr',
                               style: TextStyle(
                                   fontWeight: FontWeight.bold,
                                   fontSize: 20,
@@ -2004,6 +2012,7 @@ class JuzzAmma extends StatelessWidget {
                       color: Colors.green,
                     ),
                     Column(
+                      crossAxisAlignment: CrossAxisAlignment.stretch,
                       children: [
                         Text(
                           '(Demi Masa atau Waktu) surat ke-103 terdiri dari 3 ayat',
@@ -2097,6 +2106,66 @@ class JuzzAmma extends StatelessWidget {
             // bagiannya Alfi
             // bagiannya Alfi
 
+            // AL IKHLAS
+            ElevatedButton(
+              onPressed: () {
+                Navigator.push(context,
+                    MaterialPageRoute(builder: (context) => const AlIkhlas()));
+              },
+              style: ElevatedButton.styleFrom(
+                padding: const EdgeInsetsDirectional.symmetric(
+                    vertical: 10, horizontal: 20),
+                backgroundColor: const Color(0xFFFFFFFF),
+                minimumSize: const Size(350, 60),
+                shape: RoundedRectangleBorder(
+                  borderRadius: BorderRadius.circular(10),
+                ),
+              ),
+              child: const Column(
+                crossAxisAlignment: CrossAxisAlignment.start,
+                children: [
+                  Row(
+                    children: [
+                      SizedBox(
+                          // width: 10,
+                          ),
+                      Image(
+                        image: AssetImage(
+                          'assets/images/logo.png',
+                        ),
+                        width: 36,
+                        color: Color.fromARGB(255, 36, 87, 37),
+                      ),
+                      // Icon(
+                      //   Icons.bookmark,
+                      //   size: 28,
+                      // ),
+                      SizedBox(
+                        width: 12,
+                      ),
+                      Text(
+                        'Al Ikhlas',
+                        style: TextStyle(
+                            fontWeight: FontWeight.bold,
+                            fontSize: 20,
+                            color: Color(0xD95C5470)),
+                      ),
+                    ],
+                  ),
+                  Divider(
+                    thickness: 1,
+                    color: Colors.green,
+                  ),
+                  Text(
+                    "(Memurnikan Keesaan Allah atau Ikhlas) surat ke-112 terdiri dari 4 ayat",
+                    style: TextStyle(color: Color(0xD95C5470), fontSize: 14),
+                  ),
+                ],
+              ),
+            ),
+            const SizedBox(
+              height: 16,
+            ),
             ElevatedButton(
               onPressed: () {
                 Navigator.push(
@@ -2159,67 +2228,6 @@ class JuzzAmma extends StatelessWidget {
             // bagiannya hasan
             // bagiannya hasan
             // bagiannya hasan
-
-            // AL IKHLAS
-            ElevatedButton(
-              onPressed: () {
-                Navigator.push(context,
-                    MaterialPageRoute(builder: (context) => const AlIkhlas()));
-              },
-              style: ElevatedButton.styleFrom(
-                padding: const EdgeInsetsDirectional.symmetric(
-                    vertical: 10, horizontal: 20),
-                backgroundColor: const Color(0xFFFFFFFF),
-                minimumSize: const Size(350, 60),
-                shape: RoundedRectangleBorder(
-                  borderRadius: BorderRadius.circular(10),
-                ),
-              ),
-              child: const Column(
-                crossAxisAlignment: CrossAxisAlignment.start,
-                children: [
-                  Row(
-                    children: [
-                      SizedBox(
-                          // width: 10,
-                          ),
-                      Image(
-                        image: AssetImage(
-                          'assets/images/logo.png',
-                        ),
-                        width: 36,
-                        color: Color.fromARGB(255, 36, 87, 37),
-                      ),
-                      // Icon(
-                      //   Icons.bookmark,
-                      //   size: 28,
-                      // ),
-                      SizedBox(
-                        width: 12,
-                      ),
-                      Text(
-                        'Al Ikhlas',
-                        style: TextStyle(
-                            fontWeight: FontWeight.bold,
-                            fontSize: 20,
-                            color: Color(0xD95C5470)),
-                      ),
-                    ],
-                  ),
-                  Divider(
-                    thickness: 1,
-                    color: Colors.green,
-                  ),
-                  Text(
-                    "(Memurnikan Keesaan Allah atau Ikhlas) surat ke-112 terdiri dari 4 ayat",
-                    style: TextStyle(color: Color(0xD95C5470), fontSize: 14),
-                  ),
-                ],
-              ),
-            ),
-            const SizedBox(
-              height: 16,
-            ),
           ],
         ),
       ),
