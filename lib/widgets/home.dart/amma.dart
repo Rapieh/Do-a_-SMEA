@@ -74,17 +74,11 @@ class JuzzAmma extends StatelessWidget {
                 child: const Column(
                   crossAxisAlignment: CrossAxisAlignment.stretch,
                   children: [
-                    SizedBox(
-                        // height: 10,
-                        ),
                     Row(
                       mainAxisAlignment: MainAxisAlignment.spaceBetween,
                       children: [
                         Row(
                           children: [
-                            SizedBox(
-                                // width: 25,
-                                ),
                             Image(
                               image: AssetImage(
                                 'assets/images/logo.png',
@@ -92,10 +86,6 @@ class JuzzAmma extends StatelessWidget {
                               width: 36,
                               color: Color.fromARGB(255, 36, 87, 37),
                             ),
-                            // Icon(
-                            //   Icons.bookmark,
-                            //   size: 28,
-                            // ),
                             SizedBox(
                               width: 12,
                             ),
@@ -114,11 +104,8 @@ class JuzzAmma extends StatelessWidget {
                       thickness: 1,
                       color: Colors.green,
                     ),
-                    Row(
+                    Column(
                       children: [
-                        SizedBox(
-                            // width: 36,
-                            ),
                         Text(
                           '(Orang-orang yang Curang) surat ke-83 terdiri dari 36 ayat',
                           textAlign: TextAlign.left,
@@ -160,17 +147,11 @@ class JuzzAmma extends StatelessWidget {
                 child: const Column(
                   crossAxisAlignment: CrossAxisAlignment.stretch,
                   children: [
-                    SizedBox(
-                        // height: 10,
-                        ),
                     Row(
                       mainAxisAlignment: MainAxisAlignment.spaceBetween,
                       children: [
                         Row(
                           children: [
-                            SizedBox(
-                                // width: 25,
-                                ),
                             Image(
                               image: AssetImage(
                                 'assets/images/logo.png',
@@ -178,10 +159,6 @@ class JuzzAmma extends StatelessWidget {
                               width: 36,
                               color: Color.fromARGB(255, 36, 87, 37),
                             ),
-                            // Icon(
-                            //   Icons.bookmark,
-                            //   size: 28,
-                            // ),
                             SizedBox(
                               width: 12,
                             ),
@@ -200,11 +177,8 @@ class JuzzAmma extends StatelessWidget {
                       thickness: 1,
                       color: Colors.green,
                     ),
-                    Row(
+                    Column(
                       children: [
-                        SizedBox(
-                            // width: 36,
-                            ),
                         Text(
                           '(Pembuktian) surat ke-98 terdiri dari 8 ayat',
                           textAlign: TextAlign.left,
@@ -246,17 +220,11 @@ class JuzzAmma extends StatelessWidget {
                 child: const Column(
                   crossAxisAlignment: CrossAxisAlignment.stretch,
                   children: [
-                    SizedBox(
-                        // height: 10,
-                        ),
                     Row(
                       mainAxisAlignment: MainAxisAlignment.spaceBetween,
                       children: [
                         Row(
                           children: [
-                            SizedBox(
-                                // width: 25,
-                                ),
                             Image(
                               image: AssetImage(
                                 'assets/images/logo.png',
@@ -264,10 +232,6 @@ class JuzzAmma extends StatelessWidget {
                               width: 36,
                               color: Color.fromARGB(255, 36, 87, 37),
                             ),
-                            // Icon(
-                            //   Icons.bookmark,
-                            //   size: 28,
-                            // ),
                             SizedBox(
                               width: 12,
                             ),
@@ -286,11 +250,8 @@ class JuzzAmma extends StatelessWidget {
                       thickness: 1,
                       color: Colors.green,
                     ),
-                    Row(
+                    Column(
                       children: [
-                        SizedBox(
-                            // width: 36,
-                            ),
                         Text(
                           '(Negeri) surat ke-90 terdiri dari 20 ayat',
                           textAlign: TextAlign.left,
@@ -332,17 +293,11 @@ class JuzzAmma extends StatelessWidget {
                 child: const Column(
                   crossAxisAlignment: CrossAxisAlignment.stretch,
                   children: [
-                    SizedBox(
-                        // height: 10,
-                        ),
                     Row(
                       mainAxisAlignment: MainAxisAlignment.spaceBetween,
                       children: [
                         Row(
                           children: [
-                            SizedBox(
-                                // width: 25,
-                                ),
                             Image(
                               image: AssetImage(
                                 'assets/images/logo.png',
@@ -350,10 +305,6 @@ class JuzzAmma extends StatelessWidget {
                               width: 36,
                               color: Color.fromARGB(255, 36, 87, 37),
                             ),
-                            // Icon(
-                            //   Icons.bookmark,
-                            //   size: 28,
-                            // ),
                             SizedBox(
                               width: 12,
                             ),
@@ -372,11 +323,8 @@ class JuzzAmma extends StatelessWidget {
                       thickness: 1,
                       color: Colors.green,
                     ),
-                    Row(
+                    Column(
                       children: [
-                        SizedBox(
-                            // width: 36,
-                            ),
                         Text(
                           '(Menggulung) surat ke-81 terdiri dari 29 ayat',
                           textAlign: TextAlign.left,
@@ -418,17 +366,11 @@ class JuzzAmma extends StatelessWidget {
                 child: const Column(
                   crossAxisAlignment: CrossAxisAlignment.stretch,
                   children: [
-                    SizedBox(
-                        // height: 10,
-                        ),
                     Row(
                       mainAxisAlignment: MainAxisAlignment.spaceBetween,
                       children: [
                         Row(
                           children: [
-                            SizedBox(
-                                // width: 25,
-                                ),
                             Image(
                               image: AssetImage(
                                 'assets/images/logo.png',
@@ -436,10 +378,6 @@ class JuzzAmma extends StatelessWidget {
                               width: 36,
                               color: Color.fromARGB(255, 36, 87, 37),
                             ),
-                            // Icon(
-                            //   Icons.bookmark,
-                            //   size: 28,
-                            // ),
                             SizedBox(
                               width: 12,
                             ),
@@ -458,11 +396,8 @@ class JuzzAmma extends StatelessWidget {
                       thickness: 1,
                       color: Colors.green,
                     ),
-                    Row(
+                    Column(
                       children: [
-                        SizedBox(
-                            // width: 36,
-                            ),
                         Text(
                           '(Melapangkan) surat ke-94 terdiri dari 8 ayat',
                           textAlign: TextAlign.left,
@@ -504,17 +439,11 @@ class JuzzAmma extends StatelessWidget {
                 child: const Column(
                   crossAxisAlignment: CrossAxisAlignment.stretch,
                   children: [
-                    SizedBox(
-                        // height: 10,
-                        ),
                     Row(
                       mainAxisAlignment: MainAxisAlignment.spaceBetween,
                       children: [
                         Row(
                           children: [
-                            SizedBox(
-                                // width: 25,
-                                ),
                             Image(
                               image: AssetImage(
                                 'assets/images/logo.png',
@@ -522,10 +451,6 @@ class JuzzAmma extends StatelessWidget {
                               width: 36,
                               color: Color.fromARGB(255, 36, 87, 37),
                             ),
-                            // Icon(
-                            //   Icons.bookmark,
-                            //   size: 28,
-                            // ),
                             SizedBox(
                               width: 12,
                             ),
@@ -544,11 +469,8 @@ class JuzzAmma extends StatelessWidget {
                       thickness: 1,
                       color: Colors.green,
                     ),
-                    Row(
+                    Column(
                       children: [
-                        SizedBox(
-                            // width: 36,
-                            ),
                         Text(
                           '(Yang Datang di Malam Hari) surat ke-86 terdiri dari 17 ayat',
                           textAlign: TextAlign.left,
@@ -590,17 +512,11 @@ class JuzzAmma extends StatelessWidget {
                 child: const Column(
                   crossAxisAlignment: CrossAxisAlignment.stretch,
                   children: [
-                    SizedBox(
-                        // height: 10,
-                        ),
                     Row(
                       mainAxisAlignment: MainAxisAlignment.spaceBetween,
                       children: [
                         Row(
                           children: [
-                            SizedBox(
-                                // width: 25,
-                                ),
                             Image(
                               image: AssetImage(
                                 'assets/images/logo.png',
@@ -608,10 +524,6 @@ class JuzzAmma extends StatelessWidget {
                               width: 36,
                               color: Color.fromARGB(255, 36, 87, 37),
                             ),
-                            // Icon(
-                            //   Icons.bookmark,
-                            //   size: 28,
-                            // ),
                             SizedBox(
                               width: 12,
                             ),
@@ -630,11 +542,8 @@ class JuzzAmma extends StatelessWidget {
                       thickness: 1,
                       color: Colors.green,
                     ),
-                    Row(
+                    Column(
                       children: [
-                        SizedBox(
-                            // width: 36,
-                            ),
                         Text(
                           '(Bermegah-megahan) surat ke-102 terdiri dari 8 ayat',
                           textAlign: TextAlign.left,
@@ -676,17 +585,11 @@ class JuzzAmma extends StatelessWidget {
                 child: const Column(
                   crossAxisAlignment: CrossAxisAlignment.stretch,
                   children: [
-                    SizedBox(
-                        // height: 10,
-                        ),
                     Row(
                       mainAxisAlignment: MainAxisAlignment.spaceBetween,
                       children: [
                         Row(
                           children: [
-                            SizedBox(
-                                // width: 25,
-                                ),
                             Image(
                               image: AssetImage(
                                 'assets/images/logo.png',
@@ -694,10 +597,6 @@ class JuzzAmma extends StatelessWidget {
                               width: 36,
                               color: Color.fromARGB(255, 36, 87, 37),
                             ),
-                            // Icon(
-                            //   Icons.bookmark,
-                            //   size: 28,
-                            // ),
                             SizedBox(
                               width: 12,
                             ),
@@ -716,11 +615,8 @@ class JuzzAmma extends StatelessWidget {
                       thickness: 1,
                       color: Colors.green,
                     ),
-                    Row(
+                    Column(
                       children: [
-                        SizedBox(
-                            // width: 36,
-                            ),
                         Text(
                           '(Umat Manusia) surat ke-114 terdiri dari 6 ayat',
                           textAlign: TextAlign.left,
@@ -762,17 +658,11 @@ class JuzzAmma extends StatelessWidget {
                 child: const Column(
                   crossAxisAlignment: CrossAxisAlignment.stretch,
                   children: [
-                    SizedBox(
-                        // height: 10,
-                        ),
                     Row(
                       mainAxisAlignment: MainAxisAlignment.spaceBetween,
                       children: [
                         Row(
                           children: [
-                            SizedBox(
-                                // width: 25,
-                                ),
                             Image(
                               image: AssetImage(
                                 'assets/images/logo.png',
@@ -780,10 +670,6 @@ class JuzzAmma extends StatelessWidget {
                               width: 36,
                               color: Color.fromARGB(255, 36, 87, 37),
                             ),
-                            // Icon(
-                            //   Icons.bookmark,
-                            //   size: 28,
-                            // ),
                             SizedBox(
                               width: 12,
                             ),
@@ -802,11 +688,8 @@ class JuzzAmma extends StatelessWidget {
                       thickness: 1,
                       color: Colors.green,
                     ),
-                    Row(
+                    Column(
                       children: [
-                        SizedBox(
-                            // width: 36,
-                            ),
                         Text(
                           '(Suku Quraisy) surat ke-106 terdiri dari 4 ayat',
                           textAlign: TextAlign.left,
@@ -848,17 +731,11 @@ class JuzzAmma extends StatelessWidget {
                 child: const Column(
                   crossAxisAlignment: CrossAxisAlignment.stretch,
                   children: [
-                    SizedBox(
-                        // height: 10,
-                        ),
                     Row(
                       mainAxisAlignment: MainAxisAlignment.spaceBetween,
                       children: [
                         Row(
                           children: [
-                            SizedBox(
-                                // width: 25,
-                                ),
                             Image(
                               image: AssetImage(
                                 'assets/images/logo.png',
@@ -866,10 +743,6 @@ class JuzzAmma extends StatelessWidget {
                               width: 36,
                               color: Color.fromARGB(255, 36, 87, 37),
                             ),
-                            // Icon(
-                            //   Icons.bookmark,
-                            //   size: 28,
-                            // ),
                             SizedBox(
                               width: 12,
                             ),
@@ -888,11 +761,8 @@ class JuzzAmma extends StatelessWidget {
                       thickness: 1,
                       color: Colors.green,
                     ),
-                    Row(
+                    Column(
                       children: [
-                        SizedBox(
-                            // width: 36,
-                            ),
                         Text(
                           '(Demi Masa atau Waktu) surat ke-103 terdiri dari 3 ayat',
                           textAlign: TextAlign.left,
@@ -1869,487 +1739,491 @@ class JuzzAmma extends StatelessWidget {
             // bagiannya hasan
             // bagiannya hasan
             const SizedBox(
-              // height: 50,
+                // height: 50,
+                ),
+            // AN NAZIAT
+            ElevatedButton(
+              onPressed: () {
+                Navigator.push(context,
+                    MaterialPageRoute(builder: (context) => const AnNaziat()));
+              },
+              style: ElevatedButton.styleFrom(
+                padding: const EdgeInsetsDirectional.symmetric(
+                    vertical: 10, horizontal: 20),
+                backgroundColor: const Color(0xFFFFFFFF),
+                minimumSize: const Size(350, 60),
+                shape: RoundedRectangleBorder(
+                  borderRadius: BorderRadius.circular(10),
+                ),
               ),
-          // AN NAZIAT
-          ElevatedButton(
-            onPressed: () {
-              Navigator.push(context,
-                  MaterialPageRoute(builder: (context) => const AnNaziat()));
-            },
-            style: ElevatedButton.styleFrom(
-              padding: const EdgeInsetsDirectional.symmetric(
-                  vertical: 10, horizontal: 20),
-              backgroundColor: const Color(0xFFFFFFFF),
-              minimumSize: const Size(350, 60),
-              shape: RoundedRectangleBorder(
-                borderRadius: BorderRadius.circular(10),
-              ),
-            ),
-            child: const Column(
-              children: [
-                Row(
-                  children: [
-                    SizedBox(
-                        // width: 10,
+              child: const Column(
+                children: [
+                  Row(
+                    children: [
+                      SizedBox(
+                          // width: 10,
+                          ),
+                      Image(
+                        image: AssetImage(
+                          'assets/images/logo.png',
                         ),
-                    Image(
-                      image: AssetImage(
-                        'assets/images/logo.png',
+                        width: 36,
+                        color: Color.fromARGB(255, 36, 87, 37),
                       ),
-                      width: 36,
-                      color: Color.fromARGB(255, 36, 87, 37),
-                    ),
-                    // Icon(
-                    //   Icons.bookmark,
-                    //   size: 28,
-                    // ),
-                    SizedBox(
-                      width: 12,
-                    ),
-                    Text(
-                      'An-Naziat',
-                      style: TextStyle(
-                          fontWeight: FontWeight.bold,
-                          fontSize: 20,
-                          color: Color(0xD95C5470)),
-                    ),
-                  ],
-                ),
-                Divider(
-                  thickness: 1,
-                  color: Colors.green,
-                ),
-                Text(
-                  "(Malaikat-malaikat yang Mencabut) surat ke-79 terdiri dari 46 ayat",
-                  style: TextStyle(color: Color(0xD95C5470), fontSize: 14),
-                ),
-              ],
-            ),
-          ),
-          const SizedBox(
-            height: 16,
-          ),
-          // AL INSYIQAQ
-          ElevatedButton(
-            onPressed: () {
-              Navigator.push(context,
-                  MaterialPageRoute(builder: (context) => const AlInsyiqaq()));
-            },
-            style: ElevatedButton.styleFrom(
-              padding: const EdgeInsetsDirectional.symmetric(
-                  vertical: 10, horizontal: 20),
-              backgroundColor: const Color(0xFFFFFFFF),
-              minimumSize: const Size(350, 60),
-              shape: RoundedRectangleBorder(
-                borderRadius: BorderRadius.circular(10),
+                      // Icon(
+                      //   Icons.bookmark,
+                      //   size: 28,
+                      // ),
+                      SizedBox(
+                        width: 12,
+                      ),
+                      Text(
+                        'An-Naziat',
+                        style: TextStyle(
+                            fontWeight: FontWeight.bold,
+                            fontSize: 20,
+                            color: Color(0xD95C5470)),
+                      ),
+                    ],
+                  ),
+                  Divider(
+                    thickness: 1,
+                    color: Colors.green,
+                  ),
+                  Text(
+                    "(Malaikat-malaikat yang Mencabut) surat ke-79 terdiri dari 46 ayat",
+                    style: TextStyle(color: Color(0xD95C5470), fontSize: 14),
+                  ),
+                ],
               ),
             ),
-            child: const Column(
-              crossAxisAlignment: CrossAxisAlignment.start,
-              children: [
-                Row(
-                  children: [
-                    SizedBox(
-                        // width: 10,
-                        ),
-                    Image(
-                      image: AssetImage(
-                        'assets/images/logo.png',
-                      ),
-                      width: 36,
-                      color: Color.fromARGB(255, 36, 87, 37),
-                    ),
-                    // Icon(
-                    //   Icons.bookmark,
-                    //   size: 28,
-                    // ),
-                    SizedBox(
-                      width: 12,
-                    ),
-                    Text(
-                      'Al Insyiqaq',
-                      style: TextStyle(
-                          fontWeight: FontWeight.bold,
-                          fontSize: 20,
-                          color: Color(0xD95C5470)),
-                    ),
-                  ],
-                ),
-                Divider(
-                  thickness: 1,
-                  color: Colors.green,
-                ),
-                Text(
-                  "(Terbelah) surat ke-84 terdiri dari 25 ayat",
-                  style: TextStyle(color: Color(0xD95C5470), fontSize: 14),
-                ),
-              ],
+            const SizedBox(
+              height: 16,
             ),
-          ),
-          const SizedBox(
-            height: 16,
-          ),
-          // AL GHASYIYAH
-          ElevatedButton(
-            onPressed: () {
-              Navigator.push(context,
-                  MaterialPageRoute(builder: (context) => const AlGhasyiyah()));
-            },
-            style: ElevatedButton.styleFrom(
-              padding: const EdgeInsetsDirectional.symmetric(
-                  vertical: 10, horizontal: 20),
-              backgroundColor: const Color(0xFFFFFFFF),
-              minimumSize: const Size(350, 60),
-              shape: RoundedRectangleBorder(
-                borderRadius: BorderRadius.circular(10),
+            // AL INSYIQAQ
+            ElevatedButton(
+              onPressed: () {
+                Navigator.push(
+                    context,
+                    MaterialPageRoute(
+                        builder: (context) => const AlInsyiqaq()));
+              },
+              style: ElevatedButton.styleFrom(
+                padding: const EdgeInsetsDirectional.symmetric(
+                    vertical: 10, horizontal: 20),
+                backgroundColor: const Color(0xFFFFFFFF),
+                minimumSize: const Size(350, 60),
+                shape: RoundedRectangleBorder(
+                  borderRadius: BorderRadius.circular(10),
+                ),
+              ),
+              child: const Column(
+                crossAxisAlignment: CrossAxisAlignment.start,
+                children: [
+                  Row(
+                    children: [
+                      SizedBox(
+                          // width: 10,
+                          ),
+                      Image(
+                        image: AssetImage(
+                          'assets/images/logo.png',
+                        ),
+                        width: 36,
+                        color: Color.fromARGB(255, 36, 87, 37),
+                      ),
+                      // Icon(
+                      //   Icons.bookmark,
+                      //   size: 28,
+                      // ),
+                      SizedBox(
+                        width: 12,
+                      ),
+                      Text(
+                        'Al Insyiqaq',
+                        style: TextStyle(
+                            fontWeight: FontWeight.bold,
+                            fontSize: 20,
+                            color: Color(0xD95C5470)),
+                      ),
+                    ],
+                  ),
+                  Divider(
+                    thickness: 1,
+                    color: Colors.green,
+                  ),
+                  Text(
+                    "(Terbelah) surat ke-84 terdiri dari 25 ayat",
+                    style: TextStyle(color: Color(0xD95C5470), fontSize: 14),
+                  ),
+                ],
               ),
             ),
-            child: const Column(
-              crossAxisAlignment: CrossAxisAlignment.start,
-              children: [
-                Row(
-                  children: [
-                    SizedBox(
-                        // width: 10,
-                        ),
-                    Image(
-                      image: AssetImage(
-                        'assets/images/logo.png',
-                      ),
-                      width: 36,
-                      color: Color.fromARGB(255, 36, 87, 37),
-                    ),
-                    // Icon(
-                    //   Icons.bookmark,
-                    //   size: 28,
-                    // ),
-                    SizedBox(
-                      width: 12,
-                    ),
-                    Text(
-                      'Al Ghasyiyah',
-                      style: TextStyle(
-                          fontWeight: FontWeight.bold,
-                          fontSize: 20,
-                          color: Color(0xD95C5470)),
-                    ),
-                  ],
-                ),
-                Divider(
-                  thickness: 1,
-                  color: Colors.green,
-                ),
-                Text(
-                  "(Hari Pembalasan) surat ke-88 terdiri dari 26 ayat",
-                  style: TextStyle(color: Color(0xD95C5470), fontSize: 14),
-                ),
-              ],
+            const SizedBox(
+              height: 16,
             ),
-          ),
-          const SizedBox(
-            height: 16,
-          ),
-          // AL LAIL
-          ElevatedButton(
-            onPressed: () {
-              Navigator.push(context,
-                  MaterialPageRoute(builder: (context) => const AlLail()));
-            },
-            style: ElevatedButton.styleFrom(
-              padding: const EdgeInsetsDirectional.symmetric(
-                  vertical: 10, horizontal: 20),
-              backgroundColor: const Color(0xFFFFFFFF),
-              minimumSize: const Size(350, 60),
-              shape: RoundedRectangleBorder(
-                borderRadius: BorderRadius.circular(10),
+            // AL GHASYIYAH
+            ElevatedButton(
+              onPressed: () {
+                Navigator.push(
+                    context,
+                    MaterialPageRoute(
+                        builder: (context) => const AlGhasyiyah()));
+              },
+              style: ElevatedButton.styleFrom(
+                padding: const EdgeInsetsDirectional.symmetric(
+                    vertical: 10, horizontal: 20),
+                backgroundColor: const Color(0xFFFFFFFF),
+                minimumSize: const Size(350, 60),
+                shape: RoundedRectangleBorder(
+                  borderRadius: BorderRadius.circular(10),
+                ),
+              ),
+              child: const Column(
+                crossAxisAlignment: CrossAxisAlignment.start,
+                children: [
+                  Row(
+                    children: [
+                      SizedBox(
+                          // width: 10,
+                          ),
+                      Image(
+                        image: AssetImage(
+                          'assets/images/logo.png',
+                        ),
+                        width: 36,
+                        color: Color.fromARGB(255, 36, 87, 37),
+                      ),
+                      // Icon(
+                      //   Icons.bookmark,
+                      //   size: 28,
+                      // ),
+                      SizedBox(
+                        width: 12,
+                      ),
+                      Text(
+                        'Al Ghasyiyah',
+                        style: TextStyle(
+                            fontWeight: FontWeight.bold,
+                            fontSize: 20,
+                            color: Color(0xD95C5470)),
+                      ),
+                    ],
+                  ),
+                  Divider(
+                    thickness: 1,
+                    color: Colors.green,
+                  ),
+                  Text(
+                    "(Hari Pembalasan) surat ke-88 terdiri dari 26 ayat",
+                    style: TextStyle(color: Color(0xD95C5470), fontSize: 14),
+                  ),
+                ],
               ),
             ),
-            child: const Column(
-              crossAxisAlignment: CrossAxisAlignment.start,
-              children: [
-                Row(
-                  children: [
-                    SizedBox(
-                        // width: 10,
-                        ),
-                    Image(
-                      image: AssetImage(
-                        'assets/images/logo.png',
-                      ),
-                      width: 36,
-                      color: Color.fromARGB(255, 36, 87, 37),
-                    ),
-                    // Icon(
-                    //   Icons.bookmark,
-                    //   size: 28,
-                    // ),
-                    SizedBox(
-                      width: 12,
-                    ),
-                    Text(
-                      'Al Lail',
-                      style: TextStyle(
-                          fontWeight: FontWeight.bold,
-                          fontSize: 20,
-                          color: Color(0xD95C5470)),
-                    ),
-                  ],
-                ),
-                Divider(
-                  thickness: 1,
-                  color: Colors.green,
-                ),
-                Text(
-                  "(Malam) surat ke-92 terdiri dari 21 ayat",
-                  style: TextStyle(color: Color(0xD95C5470), fontSize: 14),
-                ),
-              ],
+            const SizedBox(
+              height: 16,
             ),
-          ),
-          const SizedBox(
-            height: 16,
-          ),
-          // AL ALAQ
-          ElevatedButton(
-            onPressed: () {
-              Navigator.push(context,
-                  MaterialPageRoute(builder: (context) => const AlAlaq()));
-            },
-            style: ElevatedButton.styleFrom(
-              padding: const EdgeInsetsDirectional.symmetric(
-                  vertical: 10, horizontal: 20),
-              backgroundColor: const Color(0xFFFFFFFF),
-              minimumSize: const Size(350, 60),
-              shape: RoundedRectangleBorder(
-                borderRadius: BorderRadius.circular(10),
+            // AL LAIL
+            ElevatedButton(
+              onPressed: () {
+                Navigator.push(context,
+                    MaterialPageRoute(builder: (context) => const AlLail()));
+              },
+              style: ElevatedButton.styleFrom(
+                padding: const EdgeInsetsDirectional.symmetric(
+                    vertical: 10, horizontal: 20),
+                backgroundColor: const Color(0xFFFFFFFF),
+                minimumSize: const Size(350, 60),
+                shape: RoundedRectangleBorder(
+                  borderRadius: BorderRadius.circular(10),
+                ),
+              ),
+              child: const Column(
+                crossAxisAlignment: CrossAxisAlignment.start,
+                children: [
+                  Row(
+                    children: [
+                      SizedBox(
+                          // width: 10,
+                          ),
+                      Image(
+                        image: AssetImage(
+                          'assets/images/logo.png',
+                        ),
+                        width: 36,
+                        color: Color.fromARGB(255, 36, 87, 37),
+                      ),
+                      // Icon(
+                      //   Icons.bookmark,
+                      //   size: 28,
+                      // ),
+                      SizedBox(
+                        width: 12,
+                      ),
+                      Text(
+                        'Al Lail',
+                        style: TextStyle(
+                            fontWeight: FontWeight.bold,
+                            fontSize: 20,
+                            color: Color(0xD95C5470)),
+                      ),
+                    ],
+                  ),
+                  Divider(
+                    thickness: 1,
+                    color: Colors.green,
+                  ),
+                  Text(
+                    "(Malam) surat ke-92 terdiri dari 21 ayat",
+                    style: TextStyle(color: Color(0xD95C5470), fontSize: 14),
+                  ),
+                ],
               ),
             ),
-            child: const Column(
-              crossAxisAlignment: CrossAxisAlignment.start,
-              children: [
-                Row(
-                  children: [
-                    SizedBox(
-                        // width: 10,
-                        ),
-                    Image(
-                      image: AssetImage(
-                        'assets/images/logo.png',
-                      ),
-                      width: 36,
-                      color: Color.fromARGB(255, 36, 87, 37),
-                    ),
-                    // Icon(
-                    //   Icons.bookmark,
-                    //   size: 28,
-                    // ),
-                    SizedBox(
-                      width: 12,
-                    ),
-                    Text(
-                      'Al Alaq',
-                      style: TextStyle(
-                          fontWeight: FontWeight.bold,
-                          fontSize: 20,
-                          color: Color(0xD95C5470)),
-                    ),
-                  ],
-                ),
-                Divider(
-                  thickness: 1,
-                  color: Colors.green,
-                ),
-                Text(
-                  "(Segumpal Darah) surat ke-96 terdiri dari 19 ayat",
-                  style: TextStyle(color: Color(0xD95C5470), fontSize: 14),
-                ),
-              ],
+            const SizedBox(
+              height: 16,
             ),
-          ),
-          const SizedBox(
-            height: 16,
-          ),
-          // AL ADIYAT
-          ElevatedButton(
-            onPressed: () {
-              Navigator.push(context,
-                  MaterialPageRoute(builder: (context) => const AlAdiyat()));
-            },
-            style: ElevatedButton.styleFrom(
-              padding: const EdgeInsetsDirectional.symmetric(
-                  vertical: 10, horizontal: 20),
-              backgroundColor: const Color(0xFFFFFFFF),
-              minimumSize: const Size(350, 60),
-              shape: RoundedRectangleBorder(
-                borderRadius: BorderRadius.circular(10),
+            // AL ALAQ
+            ElevatedButton(
+              onPressed: () {
+                Navigator.push(context,
+                    MaterialPageRoute(builder: (context) => const AlAlaq()));
+              },
+              style: ElevatedButton.styleFrom(
+                padding: const EdgeInsetsDirectional.symmetric(
+                    vertical: 10, horizontal: 20),
+                backgroundColor: const Color(0xFFFFFFFF),
+                minimumSize: const Size(350, 60),
+                shape: RoundedRectangleBorder(
+                  borderRadius: BorderRadius.circular(10),
+                ),
+              ),
+              child: const Column(
+                crossAxisAlignment: CrossAxisAlignment.start,
+                children: [
+                  Row(
+                    children: [
+                      SizedBox(
+                          // width: 10,
+                          ),
+                      Image(
+                        image: AssetImage(
+                          'assets/images/logo.png',
+                        ),
+                        width: 36,
+                        color: Color.fromARGB(255, 36, 87, 37),
+                      ),
+                      // Icon(
+                      //   Icons.bookmark,
+                      //   size: 28,
+                      // ),
+                      SizedBox(
+                        width: 12,
+                      ),
+                      Text(
+                        'Al Alaq',
+                        style: TextStyle(
+                            fontWeight: FontWeight.bold,
+                            fontSize: 20,
+                            color: Color(0xD95C5470)),
+                      ),
+                    ],
+                  ),
+                  Divider(
+                    thickness: 1,
+                    color: Colors.green,
+                  ),
+                  Text(
+                    "(Segumpal Darah) surat ke-96 terdiri dari 19 ayat",
+                    style: TextStyle(color: Color(0xD95C5470), fontSize: 14),
+                  ),
+                ],
               ),
             ),
-            child: const Column(
-              crossAxisAlignment: CrossAxisAlignment.start,
-              children: [
-                Row(
-                  children: [
-                    SizedBox(
-                        // width: 10,
-                        ),
-                    Image(
-                      image: AssetImage(
-                        'assets/images/logo.png',
-                      ),
-                      width: 36,
-                      color: Color.fromARGB(255, 36, 87, 37),
-                    ),
-                    // Icon(
-                    //   Icons.bookmark,
-                    //   size: 28,
-                    // ),
-                    SizedBox(
-                      width: 12,
-                    ),
-                    Text(
-                      'Al Adiyat',
-                      style: TextStyle(
-                          fontWeight: FontWeight.bold,
-                          fontSize: 20,
-                          color: Color(0xD95C5470)),
-                    ),
-                  ],
-                ),
-                Divider(
-                  thickness: 1,
-                  color: Colors.green,
-                ),
-                Text(
-                  "(Kuda yang Berlari Kencang) surat ke-100 terdiri dari 11 ayat",
-                  style: TextStyle(color: Color(0xD95C5470), fontSize: 14),
-                ),
-              ],
+            const SizedBox(
+              height: 16,
             ),
-          ),
-          const SizedBox(
-            height: 16,
-          ),
-          // AL HUMAZAH
-          ElevatedButton(
-            onPressed: () {
-              Navigator.push(context,
-                  MaterialPageRoute(builder: (context) => const AlHumazah()));
-            },
-            style: ElevatedButton.styleFrom(
-              padding: const EdgeInsetsDirectional.symmetric(
-                  vertical: 10, horizontal: 20),
-              backgroundColor: const Color(0xFFFFFFFF),
-              minimumSize: const Size(350, 60),
-              shape: RoundedRectangleBorder(
-                borderRadius: BorderRadius.circular(10),
+            // AL ADIYAT
+            ElevatedButton(
+              onPressed: () {
+                Navigator.push(context,
+                    MaterialPageRoute(builder: (context) => const AlAdiyat()));
+              },
+              style: ElevatedButton.styleFrom(
+                padding: const EdgeInsetsDirectional.symmetric(
+                    vertical: 10, horizontal: 20),
+                backgroundColor: const Color(0xFFFFFFFF),
+                minimumSize: const Size(350, 60),
+                shape: RoundedRectangleBorder(
+                  borderRadius: BorderRadius.circular(10),
+                ),
+              ),
+              child: const Column(
+                crossAxisAlignment: CrossAxisAlignment.start,
+                children: [
+                  Row(
+                    children: [
+                      SizedBox(
+                          // width: 10,
+                          ),
+                      Image(
+                        image: AssetImage(
+                          'assets/images/logo.png',
+                        ),
+                        width: 36,
+                        color: Color.fromARGB(255, 36, 87, 37),
+                      ),
+                      // Icon(
+                      //   Icons.bookmark,
+                      //   size: 28,
+                      // ),
+                      SizedBox(
+                        width: 12,
+                      ),
+                      Text(
+                        'Al Adiyat',
+                        style: TextStyle(
+                            fontWeight: FontWeight.bold,
+                            fontSize: 20,
+                            color: Color(0xD95C5470)),
+                      ),
+                    ],
+                  ),
+                  Divider(
+                    thickness: 1,
+                    color: Colors.green,
+                  ),
+                  Text(
+                    "(Kuda yang Berlari Kencang) surat ke-100 terdiri dari 11 ayat",
+                    style: TextStyle(color: Color(0xD95C5470), fontSize: 14),
+                  ),
+                ],
               ),
             ),
-            child: const Column(
-              crossAxisAlignment: CrossAxisAlignment.start,
-              children: [
-                Row(
-                  children: [
-                    SizedBox(
-                        // width: 10,
-                        ),
-                    Image(
-                      image: AssetImage(
-                        'assets/images/logo.png',
-                      ),
-                      width: 36,
-                      color: Color.fromARGB(255, 36, 87, 37),
-                    ),
-                    // Icon(
-                    //   Icons.bookmark,
-                    //   size: 28,
-                    // ),
-                    SizedBox(
-                      width: 12,
-                    ),
-                    Text(
-                      'Al Humazah',
-                      style: TextStyle(
-                          fontWeight: FontWeight.bold,
-                          fontSize: 20,
-                          color: Color(0xD95C5470)),
-                    ),
-                  ],
-                ),
-                Divider(
-                  thickness: 1,
-                  color: Colors.green,
-                ),
-                Text(
-                  "(Pengumpat) surat ke-104 terdiri dari 9 ayat",
-                  style: TextStyle(color: Color(0xD95C5470), fontSize: 14),
-                ),
-              ],
+            const SizedBox(
+              height: 16,
             ),
-          ),
-          const SizedBox(
-            height: 16,
-          ),
-          // AL IKHLAS
-          ElevatedButton(
-            onPressed: () {
-              Navigator.push(context,
-                  MaterialPageRoute(builder: (context) => const AlIkhlas()));
-            },
-            style: ElevatedButton.styleFrom(
-              padding: const EdgeInsetsDirectional.symmetric(
-                  vertical: 10, horizontal: 20),
-              backgroundColor: const Color(0xFFFFFFFF),
-              minimumSize: const Size(350, 60),
-              shape: RoundedRectangleBorder(
-                borderRadius: BorderRadius.circular(10),
+            // AL HUMAZAH
+            ElevatedButton(
+              onPressed: () {
+                Navigator.push(context,
+                    MaterialPageRoute(builder: (context) => const AlHumazah()));
+              },
+              style: ElevatedButton.styleFrom(
+                padding: const EdgeInsetsDirectional.symmetric(
+                    vertical: 10, horizontal: 20),
+                backgroundColor: const Color(0xFFFFFFFF),
+                minimumSize: const Size(350, 60),
+                shape: RoundedRectangleBorder(
+                  borderRadius: BorderRadius.circular(10),
+                ),
+              ),
+              child: const Column(
+                crossAxisAlignment: CrossAxisAlignment.start,
+                children: [
+                  Row(
+                    children: [
+                      SizedBox(
+                          // width: 10,
+                          ),
+                      Image(
+                        image: AssetImage(
+                          'assets/images/logo.png',
+                        ),
+                        width: 36,
+                        color: Color.fromARGB(255, 36, 87, 37),
+                      ),
+                      // Icon(
+                      //   Icons.bookmark,
+                      //   size: 28,
+                      // ),
+                      SizedBox(
+                        width: 12,
+                      ),
+                      Text(
+                        'Al Humazah',
+                        style: TextStyle(
+                            fontWeight: FontWeight.bold,
+                            fontSize: 20,
+                            color: Color(0xD95C5470)),
+                      ),
+                    ],
+                  ),
+                  Divider(
+                    thickness: 1,
+                    color: Colors.green,
+                  ),
+                  Text(
+                    "(Pengumpat) surat ke-104 terdiri dari 9 ayat",
+                    style: TextStyle(color: Color(0xD95C5470), fontSize: 14),
+                  ),
+                ],
               ),
             ),
-            child: const Column(
-              crossAxisAlignment: CrossAxisAlignment.start,
-              children: [
-                Row(
-                  children: [
-                    SizedBox(
-                        // width: 10,
-                        ),
-                    Image(
-                      image: AssetImage(
-                        'assets/images/logo.png',
-                      ),
-                      width: 36,
-                      color: Color.fromARGB(255, 36, 87, 37),
-                    ),
-                    // Icon(
-                    //   Icons.bookmark,
-                    //   size: 28,
-                    // ),
-                    SizedBox(
-                      width: 12,
-                    ),
-                    Text(
-                      'Al Ikhlas',
-                      style: TextStyle(
-                          fontWeight: FontWeight.bold,
-                          fontSize: 20,
-                          color: Color(0xD95C5470)),
-                    ),
-                  ],
-                ),
-                Divider(
-                  thickness: 1,
-                  color: Colors.green,
-                ),
-                Text(
-                  "(Memurnikan Keesaan Allah atau Ikhlas) surat ke-112 terdiri dari 4 ayat",
-                  style: TextStyle(color: Color(0xD95C5470), fontSize: 14),
-                ),
-              ],
+            const SizedBox(
+              height: 16,
             ),
-          ),
-          const SizedBox(
-            height: 16,
-          ),
+            // AL IKHLAS
+            ElevatedButton(
+              onPressed: () {
+                Navigator.push(context,
+                    MaterialPageRoute(builder: (context) => const AlIkhlas()));
+              },
+              style: ElevatedButton.styleFrom(
+                padding: const EdgeInsetsDirectional.symmetric(
+                    vertical: 10, horizontal: 20),
+                backgroundColor: const Color(0xFFFFFFFF),
+                minimumSize: const Size(350, 60),
+                shape: RoundedRectangleBorder(
+                  borderRadius: BorderRadius.circular(10),
+                ),
+              ),
+              child: const Column(
+                crossAxisAlignment: CrossAxisAlignment.start,
+                children: [
+                  Row(
+                    children: [
+                      SizedBox(
+                          // width: 10,
+                          ),
+                      Image(
+                        image: AssetImage(
+                          'assets/images/logo.png',
+                        ),
+                        width: 36,
+                        color: Color.fromARGB(255, 36, 87, 37),
+                      ),
+                      // Icon(
+                      //   Icons.bookmark,
+                      //   size: 28,
+                      // ),
+                      SizedBox(
+                        width: 12,
+                      ),
+                      Text(
+                        'Al Ikhlas',
+                        style: TextStyle(
+                            fontWeight: FontWeight.bold,
+                            fontSize: 20,
+                            color: Color(0xD95C5470)),
+                      ),
+                    ],
+                  ),
+                  Divider(
+                    thickness: 1,
+                    color: Colors.green,
+                  ),
+                  Text(
+                    "(Memurnikan Keesaan Allah atau Ikhlas) surat ke-112 terdiri dari 4 ayat",
+                    style: TextStyle(color: Color(0xD95C5470), fontSize: 14),
+                  ),
+                ],
+              ),
+            ),
+            const SizedBox(
+              height: 16,
+            ),
           ],
         ),
       ),
