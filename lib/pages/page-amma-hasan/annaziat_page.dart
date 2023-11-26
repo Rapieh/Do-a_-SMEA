@@ -112,7 +112,7 @@ class _AnNaziatState extends State<AnNaziat> {
     },
     // ayat 16
     {
-      "arabic": "اِذۡ نَادٰٮهُ رَبُّهٗ بِالۡوَادِ الۡمُقَدَّسِ",
+      "arabic": "اِذۡ نَادٰٮهُ رَبُّهٗ بِالۡوَادِ الۡمُقَدَّسِ طُوًى‌ۚ",
       "latin": "Muttaki'iina 'alaihaa mutaqabiliin",
       "meaning":
           'Ketika Tuhan memanggilnya (Musa) di lembah suci yaitu Lembah Tuwa',

@@ -18,39 +18,39 @@ class _AlKafirunPageState extends State<AlKafirunPage> {
     },
     // ayat 1
     {
-      "arabic": "قُلْ اَعُوْذُ بِرَبِّ النَّاسِ",
-      "latin": "Izaa waqa'atil waaqi'ah",
-      "meaning": 'Katakanlah, "Aku berlindung kepada Tuhannya manusia,',
+      "arabic": "قُلْ يٰٓاَيُّهَا الْكٰفِرُوْنَ",
+      "latin": "Qul yaa-ai yuhal kaafiruun",
+      "meaning": 'Katakanlah (Muhammad), "Wahai orang-orang kafir!',
     },
     // ayat 2
     {
-      "arabic": "مَلِكِ النَّاسِۙ ۙ",
-      "latin": "Laisa liwaq'atihaa kaazibah",
-      "meaning": "Raja manusia,",
+      "arabic": "ۙلَاۤ اَعْبُدُ مَا تَعْبُدُوْنَ",
+      "latin": "Laa a'budu ma t'abuduun",
+      "meaning": "aku tidak akan menyembah apa yang kamu sembah,",
     },
     // ayat 3
     {
-      "arabic": "اِلٰهِ النَّاسِۙ",
-      "latin": "Khafidatur raafi'ah",
-      "meaning": 'sembahan manusia,',
+      "arabic": "وَلَاۤ اَنْتُمْ عٰبِدُوْنَ مَاۤ اَعْبُدُ",
+      "latin": "Wa laa antum 'aabiduuna maa a'bud",
+      "meaning": 'dan kamu bukan penyembah apa yang aku sembah,',
     },
     // ayat 4
     {
-      "arabic": "مِنۡ شَرِّ الۡوَسۡوَاسِ  ۙ الۡخَـنَّاسِ",
-      "latin": "Izaa rujjatil ardu rajjaa",
-      "meaning": 'dari kejahatan (bisikan) setan yang bersembunyi,',
+      "arabic": "وَلَاۤ اَنَا عَابِدٌ مَّا عَبَدْتُّمْ",
+      "latin": "Wa laa ana 'abidum maa 'abattum",
+      "meaning": 'dan aku tidak pernah menjadi penyembah apa yang kamu sembah,',
     },
     // ayat 5
     {
-      "arabic": "الَّذِىۡ يُوَسۡوِسُ فِىۡ صُدُوۡرِ النَّاسِۙ",
-      "latin": "Wa bussatil jibaalu bassaa",
-      "meaning": 'yang membisikkan (kejahatan) ke dalam dada manusia,',
+      "arabic": "وَلَاۤ اَنْتُمْ عٰبِدُوْنَ مَاۤ اَعْبُدُ",
+      "latin": "Wa laa antum 'aabiduuna ma a'bud",
+      "meaning": 'dan kamu tidak pernah (pula) menjadi penyembah apa yang aku sembah.',
     },
     // ayat 6
     {
-      "arabic": "مِنَ الۡجِنَّةِ وَالنَّاسِ ؕ",
-      "latin": "Fakaanat habaaa'am mumbassaa",
-      "meaning": 'dari (golongan) jin dan manusia.',
+      "arabic": "لَكُمْ دِيْنُكُمْ وَلِيَ دِيْنِ",
+      "latin": "Lakum diinukum wa liya diin.",
+      "meaning": 'Untukmu agamamu, dan untukku agamaku."',
     },
   ];
 

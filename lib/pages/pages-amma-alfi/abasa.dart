@@ -263,6 +263,18 @@ class _AbasaPageState extends State<AbasaPage> {
       "latin": "Wa wujuuhuy yauma-izin 'alaiha ghabar a",
       "meaning": ' dan pada hari itu ada (pula) wajah-wajah yang tertutup debu (suram),',
     },
+    // ayat 41
+    {
+      "arabic": "تَرۡهَقُهَا قَتَرَةٌ",
+      "latin": "Tarhaquha qatarah.",
+      "meaning": 'tertutup oleh kegelapan (ditimpa kehinaan dan kesusahan).',
+    },
+    // ayat 42
+    {
+      "arabic": "اُولٰٓٮِٕكَ هُمُ الۡكَفَرَةُ الۡفَجَرَةُ",
+      "latin": "Ulaa-ika humul-kafa ratul-fajarah",
+      "meaning": 'Mereka itulah orang-orang kafir yang durhaka.',
+    },
   ];
 
   @override

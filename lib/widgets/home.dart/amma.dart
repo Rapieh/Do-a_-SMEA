@@ -1696,7 +1696,7 @@ class JuzzAmma extends StatelessWidget {
                         width: 12,
                       ),
                       Text(
-                        'At-Ashr',
+                        'Al-Ashr',
                         style: TextStyle(
                             fontWeight: FontWeight.bold,
                             fontSize: 20,
@@ -2185,7 +2185,7 @@ class JuzzAmma extends StatelessWidget {
                       crossAxisAlignment: CrossAxisAlignment.stretch,
                       children: [
                         Text(
-                          '(Demi Masa atau Waktu) surat ke-103 terdiri dari 3 ayat',
+                          '(Demi Masa atau Waktu) surat ke-110 terdiri dari 3 ayat',
                           textAlign: TextAlign.left,
                           style:
                               TextStyle(color: Color(0xD95C5470), fontSize: 14),

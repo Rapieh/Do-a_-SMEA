@@ -130,7 +130,7 @@ class _AlMutaffifinPageState extends State<AlMutaffifinPage> {
       "arabic": "ثُمَّ يُقَالُ هٰذَا الَّذِىۡ كُنۡتُمۡ بِهٖ تُكَذِّبُوۡنَؕ",
       "latin": "Yatuufu 'alaihim wildaa num mukkhalladuun",
       "meaning":
-          ' Kemudian, dikatakan (kepada mereka), "Inilah (azab) yang dahulu kamu dustakan.',
+          ' Kemudian, dikatakan (kepada mereka), "Inilah (azab) yang dahulu kamu dustakan."',
     },
     // ayat 18
     {
