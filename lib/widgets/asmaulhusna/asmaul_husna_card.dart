@@ -54,9 +54,11 @@ class AsmaulHusnaCard extends StatelessWidget {
             height: 26,
           ),
           Column(
+            crossAxisAlignment: CrossAxisAlignment.stretch,
             children: [
               Text(
                 'Artinya: ${asmaulHusna['meaning'].toString()}',
+                textAlign: TextAlign.left,
                 style: const TextStyle(
                   fontSize: 16,
                   fontWeight: FontWeight.w400,

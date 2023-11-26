@@ -44,8 +44,8 @@ class JuzzAmma extends StatelessWidget {
   Widget build(BuildContext context) {
     return SingleChildScrollView(
       child: Container(
-        padding: const EdgeInsets.symmetric(vertical: 0, horizontal: 0),
-        margin: const EdgeInsets.symmetric(horizontal: 12, vertical: 12),
+        padding: const EdgeInsets.symmetric(vertical: 20, horizontal: 0),
+        margin: const EdgeInsets.symmetric(horizontal: 12, vertical: 16),
         decoration: const BoxDecoration(),
         child: Column(
           children: [
@@ -97,7 +97,8 @@ class JuzzAmma extends StatelessWidget {
                     ]),
                     Divider(
                       thickness: 0.8,
-                      color: Color.fromARGB(255, 36, 87, 37),
+                      //   Icons.bookmark,
+                      color: Colors.green,
                     ),
                     Text(
                       "(Berita Besar) surat ke-78 terdiri dari 40 ayat",
@@ -158,9 +159,18 @@ class JuzzAmma extends StatelessWidget {
                     thickness: 1,
                     color: Colors.green,
                   ),
-                  Text(
-                    "(Malaikat-malaikat yang Mencabut) surat ke-79 terdiri dari 46 ayat",
-                    style: TextStyle(color: Color(0xD95C5470), fontSize: 14),
+                  Column(
+                    crossAxisAlignment: CrossAxisAlignment.stretch,
+                    children: [
+                      Text(
+                        "(Malaikat-malaikat yang Mencabut) surat ke-79 terdiri dari 46 ayat",
+                        textAlign: TextAlign.left,
+                        style: TextStyle(
+                          color: Color(0xD95C5470),
+                          fontSize: 14,
+                        ),
+                      ),
+                    ],
                   ),
                 ],
               ),
@@ -216,6 +226,7 @@ class JuzzAmma extends StatelessWidget {
                   ),
                   Divider(
                     thickness: 0.8,
+                    color: Colors.green,
                   ),
                   Text('(Ia Bermuka Masam) surat ke-80 terdiri dari 40 ayat',
                       textAlign: TextAlign.left,
@@ -236,7 +247,7 @@ class JuzzAmma extends StatelessWidget {
               },
               style: ElevatedButton.styleFrom(
                 padding:
-                    const EdgeInsets.symmetric(vertical: 10, horizontal: 16),
+                    const EdgeInsets.symmetric(vertical: 10, horizontal: 20),
                 backgroundColor: const Color.fromARGB(255, 255, 255, 255),
                 minimumSize: const Size(350, 60),
                 shape: RoundedRectangleBorder(
@@ -347,7 +358,8 @@ class JuzzAmma extends StatelessWidget {
                     ]),
                     Divider(
                       thickness: 0.8,
-                      color: Color.fromARGB(255, 36, 87, 37),
+                      //   Icons.bookmark,
+                      color: Colors.green,
                     ),
                     Text(
                       "(Terbelah) surat ke-82 terdiri dari 19 ayat",
@@ -369,7 +381,7 @@ class JuzzAmma extends StatelessWidget {
               },
               style: ElevatedButton.styleFrom(
                 padding:
-                    const EdgeInsets.symmetric(vertical: 10, horizontal: 16),
+                    const EdgeInsets.symmetric(vertical: 10, horizontal: 20),
                 backgroundColor: const Color.fromARGB(255, 255, 255, 255),
                 minimumSize: const Size(350, 60),
                 shape: RoundedRectangleBorder(
@@ -544,6 +556,7 @@ class JuzzAmma extends StatelessWidget {
                   ),
                   Divider(
                     thickness: 0.8,
+                    color: Colors.green,
                   ),
                   Text('(Gugusan Bintang) surat ke-85 terdiri dari 22 ayat',
                       textAlign: TextAlign.left,
@@ -564,7 +577,7 @@ class JuzzAmma extends StatelessWidget {
               },
               style: ElevatedButton.styleFrom(
                 padding:
-                    const EdgeInsets.symmetric(vertical: 10, horizontal: 16),
+                    const EdgeInsets.symmetric(vertical: 10, horizontal: 20),
                 backgroundColor: const Color.fromARGB(255, 255, 255, 255),
                 minimumSize: const Size(350, 60),
                 shape: RoundedRectangleBorder(
@@ -607,6 +620,7 @@ class JuzzAmma extends StatelessWidget {
                       color: Colors.green,
                     ),
                     Column(
+                      crossAxisAlignment: CrossAxisAlignment.stretch,
                       children: [
                         Text(
                           '(Yang Datang di Malam Hari) surat ke-86 terdiri dari 17 ayat',
@@ -795,6 +809,7 @@ class JuzzAmma extends StatelessWidget {
                   ),
                   Divider(
                     thickness: 0.8,
+                    color: Colors.green,
                   ),
                   Text('(Fajar) surat ke-89 terdiri dari 30 ayat',
                       textAlign: TextAlign.left,
@@ -815,7 +830,7 @@ class JuzzAmma extends StatelessWidget {
               },
               style: ElevatedButton.styleFrom(
                 padding:
-                    const EdgeInsets.symmetric(vertical: 10, horizontal: 16),
+                    const EdgeInsets.symmetric(vertical: 10, horizontal: 20),
                 backgroundColor: const Color.fromARGB(255, 255, 255, 255),
                 minimumSize: const Size(350, 60),
                 shape: RoundedRectangleBorder(
@@ -926,7 +941,8 @@ class JuzzAmma extends StatelessWidget {
                     ]),
                     Divider(
                       thickness: 0.8,
-                      color: Color.fromARGB(255, 36, 87, 37),
+                      //   Icons.bookmark,
+                      color: Colors.green,
                     ),
                     Text(
                       "(Matahari) surat ke-91 terdiri dari 15 ayat",
@@ -1048,6 +1064,7 @@ class JuzzAmma extends StatelessWidget {
                   ),
                   Divider(
                     thickness: 0.8,
+                    color: Colors.green,
                   ),
                   Text(
                       '(Waktu Dhuha atau Waktu Matahari Sepenggalahan Naik) surat ke-93 terdiri dari 11 ayat',
@@ -1069,7 +1086,7 @@ class JuzzAmma extends StatelessWidget {
               },
               style: ElevatedButton.styleFrom(
                 padding:
-                    const EdgeInsets.symmetric(vertical: 10, horizontal: 16),
+                    const EdgeInsets.symmetric(vertical: 10, horizontal: 20),
                 backgroundColor: const Color.fromARGB(255, 255, 255, 255),
                 minimumSize: const Size(350, 60),
                 shape: RoundedRectangleBorder(
@@ -1178,7 +1195,8 @@ class JuzzAmma extends StatelessWidget {
                     ]),
                     Divider(
                       thickness: 0.8,
-                      color: Color.fromARGB(255, 36, 87, 37),
+                      //   Icons.bookmark,
+                      color: Colors.green,
                     ),
                     Text(
                       "(Buah Tin) surat ke-95 terdiri dari 8 ayat",
@@ -1300,6 +1318,7 @@ class JuzzAmma extends StatelessWidget {
                   ),
                   Divider(
                     thickness: 0.8,
+                    color: Colors.green,
                   ),
                   Text('(Kemuliaan) surat ke-97 terdiri dari 5 ayat',
                       textAlign: TextAlign.left,
@@ -1320,7 +1339,7 @@ class JuzzAmma extends StatelessWidget {
               },
               style: ElevatedButton.styleFrom(
                 padding:
-                    const EdgeInsets.symmetric(vertical: 10, horizontal: 16),
+                    const EdgeInsets.symmetric(vertical: 10, horizontal: 20),
                 backgroundColor: const Color.fromARGB(255, 255, 255, 255),
                 minimumSize: const Size(350, 60),
                 shape: RoundedRectangleBorder(
@@ -1431,7 +1450,8 @@ class JuzzAmma extends StatelessWidget {
                     ]),
                     Divider(
                       thickness: 0.8,
-                      color: Color.fromARGB(255, 36, 87, 37),
+                      //   Icons.bookmark,
+                      color: Colors.green,
                     ),
                     Text(
                       "(Kegoncangan) surat ke-99 terdiri dari 8 ayat",
@@ -1553,6 +1573,7 @@ class JuzzAmma extends StatelessWidget {
                   ),
                   Divider(
                     thickness: 0.8,
+                    color: Colors.green,
                   ),
                   Text('(Hari Kiamat) surat ke-101 terdiri dari 11 ayat',
                       textAlign: TextAlign.left,
@@ -1573,7 +1594,7 @@ class JuzzAmma extends StatelessWidget {
               },
               style: ElevatedButton.styleFrom(
                 padding:
-                    const EdgeInsets.symmetric(vertical: 10, horizontal: 16),
+                    const EdgeInsets.symmetric(vertical: 10, horizontal: 20),
                 backgroundColor: const Color.fromARGB(255, 255, 255, 255),
                 minimumSize: const Size(350, 60),
                 shape: RoundedRectangleBorder(
@@ -1684,7 +1705,8 @@ class JuzzAmma extends StatelessWidget {
                     ]),
                     Divider(
                       thickness: 0.8,
-                      color: Color.fromARGB(255, 36, 87, 37),
+                      //   Icons.bookmark,
+                      color: Colors.green,
                     ),
                     Text(
                       "(Demi Masa atau Waktu) surat ke-103 terdiri dari 3 ayat",
@@ -1804,6 +1826,7 @@ class JuzzAmma extends StatelessWidget {
                   ),
                   Divider(
                     thickness: 0.8,
+                    color: Colors.green,
                   ),
                   Text('(Gajah) surat ke-105 terdiri dari 5 ayat ',
                       textAlign: TextAlign.left,
@@ -1824,7 +1847,7 @@ class JuzzAmma extends StatelessWidget {
               },
               style: ElevatedButton.styleFrom(
                 padding:
-                    const EdgeInsets.symmetric(vertical: 10, horizontal: 16),
+                    const EdgeInsets.symmetric(vertical: 10, horizontal: 20),
                 backgroundColor: const Color.fromARGB(255, 255, 255, 255),
                 minimumSize: const Size(350, 60),
                 shape: RoundedRectangleBorder(
@@ -1897,7 +1920,7 @@ class JuzzAmma extends StatelessWidget {
               },
               style: ElevatedButton.styleFrom(
                 padding:
-                    const EdgeInsets.symmetric(vertical: 10, horizontal: 16),
+                    const EdgeInsets.symmetric(vertical: 10, horizontal: 20),
                 backgroundColor: const Color.fromARGB(255, 255, 255, 255),
                 minimumSize: const Size(350, 60),
                 shape: RoundedRectangleBorder(
@@ -1970,7 +1993,7 @@ class JuzzAmma extends StatelessWidget {
               },
               style: ElevatedButton.styleFrom(
                 padding:
-                    const EdgeInsets.symmetric(vertical: 10, horizontal: 16),
+                    const EdgeInsets.symmetric(vertical: 10, horizontal: 20),
                 backgroundColor: const Color.fromARGB(255, 255, 255, 255),
                 minimumSize: const Size(350, 60),
                 shape: RoundedRectangleBorder(
@@ -2043,7 +2066,7 @@ class JuzzAmma extends StatelessWidget {
               },
               style: ElevatedButton.styleFrom(
                 padding:
-                    const EdgeInsets.symmetric(vertical: 10, horizontal: 16),
+                    const EdgeInsets.symmetric(vertical: 10, horizontal: 20),
                 backgroundColor: const Color.fromARGB(255, 255, 255, 255),
                 minimumSize: const Size(350, 60),
                 shape: RoundedRectangleBorder(
@@ -2116,7 +2139,7 @@ class JuzzAmma extends StatelessWidget {
               },
               style: ElevatedButton.styleFrom(
                 padding:
-                    const EdgeInsets.symmetric(vertical: 10, horizontal: 16),
+                    const EdgeInsets.symmetric(vertical: 10, horizontal: 20),
                 backgroundColor: const Color.fromARGB(255, 255, 255, 255),
                 minimumSize: const Size(350, 60),
                 shape: RoundedRectangleBorder(
@@ -2226,7 +2249,8 @@ class JuzzAmma extends StatelessWidget {
                     ]),
                     Divider(
                       thickness: 0.8,
-                      color: Color.fromARGB(255, 36, 87, 37),
+                      //   Icons.bookmark,
+                      color: Colors.green,
                     ),
                     Text(
                       "(Gejolak Api atau Sabut) surat ke-111 terdiri dari 5 ayat",
@@ -2347,6 +2371,7 @@ class JuzzAmma extends StatelessWidget {
                   ),
                   Divider(
                     thickness: 0.8,
+                    color: Colors.green,
                   ),
                   Text(' (Waktu Subuh) surat ke-113 terdiri dari 5 ayat',
                       textAlign: TextAlign.left,
@@ -2367,7 +2392,7 @@ class JuzzAmma extends StatelessWidget {
               },
               style: ElevatedButton.styleFrom(
                 padding:
-                    const EdgeInsets.symmetric(vertical: 10, horizontal: 16),
+                    const EdgeInsets.symmetric(vertical: 10, horizontal: 20),
                 backgroundColor: const Color.fromARGB(255, 255, 255, 255),
                 minimumSize: const Size(350, 60),
                 shape: RoundedRectangleBorder(

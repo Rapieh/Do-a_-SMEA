@@ -9,7 +9,7 @@ class AlqariahPage extends StatefulWidget {
 }
 
 class _AlqariahPageState extends State<AlqariahPage> {
-  final List<Map<String, String>> listalqriah= [
+  final List<Map<String, String>> listalqriah = [
     // bismillah
     {
       "arabic": "بِسْــــــــــــــــــمِ اللهِ الرَّحْمَنِ الرَّحِيْمِ",
@@ -20,7 +20,7 @@ class _AlqariahPageState extends State<AlqariahPage> {
     {
       "arabic": "اَلۡقَارِعَةُ",
       "latin": "Al qoori'ah",
-      "meaning": '   Hari Kiamat,',
+      "meaning": 'Hari Kiamat,',
     },
     // ayat 2
     {
@@ -32,8 +32,7 @@ class _AlqariahPageState extends State<AlqariahPage> {
     {
       "arabic": "وَمَاۤ اَدۡرٰٮكَ مَا الۡقَارِعَةُ",
       "latin": "Wa maa adraaka mal qoori'ah",
-      "meaning":
-          ' Dan tahukah kamu apakah hari Kiamat itu?',
+      "meaning": ' Dan tahukah kamu apakah hari Kiamat itu?',
     },
     // ayat 4
     {
@@ -75,8 +74,7 @@ class _AlqariahPageState extends State<AlqariahPage> {
     {
       "arabic": "وَمَاۤ اَدۡرٰٮكَ مَا هِيَهۡ",
       "latin": "Wa maa adraaka maa hiyah",
-      "meaning":
-          ' Dan tahukah kamu apakah neraka Hawiyah itu?',
+      "meaning": ' Dan tahukah kamu apakah neraka Hawiyah itu?',
     },
     // ayat 11
     {

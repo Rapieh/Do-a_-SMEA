@@ -80,9 +80,15 @@ class Istigosah extends StatelessWidget {
                 ),
               ],
             ),
+            SizedBox(
+              height: 12,
+            ),
             Divider(
-              thickness: 1,
+              thickness: 0.4,
               color: Colors.green,
+            ),
+            SizedBox(
+              height: 12,
             ),
             Column(
               crossAxisAlignment: CrossAxisAlignment.stretch,
@@ -105,7 +111,13 @@ class Istigosah extends StatelessWidget {
                   ),
                 ),
                 Text(
-                  ' (3x)'
+                  '(33x)',
+                  style: TextStyle(
+                    fontSize: 25,
+                    color: Color.fromARGB(255, 38, 105, 40),
+                  ),
+                ),
+                Text(
                   'أللَّهُمَّ صَلِّي عَلَى سَيِّدِنَا مُحَمَّدٍ وَعَلَى آلِ سَيِّدِنَا مُحَمَّدٍ',
                   textAlign: TextAlign.right,
                   style: TextStyle(
@@ -163,7 +175,7 @@ class Istigosah extends StatelessWidget {
                   ),
                 ),
                 Text(
-                  'يَا لَطِيْفُ' ' (41x)',
+                  ' (41x)' 'يَا لَطِيْفُ',
                   textAlign: TextAlign.right,
                   style: TextStyle(
                     fontSize: 25,
@@ -181,9 +193,15 @@ class Istigosah extends StatelessWidget {
                 ),
               ],
             ),
+            SizedBox(
+              height: 12,
+            ),
             Divider(
-              thickness: 1,
+              thickness: 0.4,
               color: Colors.green,
+            ),
+            SizedBox(
+              height: 12,
             ),
             Text(
               'أللّهُمَّ صَلِّي صَلَاةً كَامِلَةً وَسَلِّمْ سَلَامًا تَامًّا عَلَى سَيِّدِنَا مُحَمَّدٍ الَّذِي تَنْحَلُّ بِهِ الْعُقَدُ وَتَنْفَرِجُ بِهِ الْكُرَبُ وَتُقْضَى بِهِ الْحَوَائِجُ وَتُنَالُ بِهِ الرَّغَائِبُ وَحُسْنُ الْخَوَاتِمِ وَيُسْتَسْقَى الْغَمَامُ بِوَجْهِهِ الْكَرِيْمِ وَعَلٰى آلِهِ وَصَحْبِهِ فِيْ كُلِّ لَمْحَةٍ وَنَفَسٍ بِعَدَدِ كُلِّ مَعْلُوْمٍ لَكَ',
@@ -193,9 +211,15 @@ class Istigosah extends StatelessWidget {
                 color: Color.fromARGB(255, 38, 105, 40),
               ),
             ),
+            SizedBox(
+              height: 12,
+            ),
             Divider(
-              thickness: 1,
+              thickness: 0.4,
               color: Colors.green,
+            ),
+            SizedBox(
+              height: 12,
             ),
             Column(
               crossAxisAlignment: CrossAxisAlignment.stretch,

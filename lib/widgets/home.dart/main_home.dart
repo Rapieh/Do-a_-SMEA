@@ -88,6 +88,7 @@ class HomeMain extends StatelessWidget {
                       color: Colors.green,
                     ),
                     Column(
+                      crossAxisAlignment: CrossAxisAlignment.stretch,
                       children: [
                         Text(
                           'nama-nama Allah SWT yang terbaik dan terindah',
@@ -162,6 +163,7 @@ class HomeMain extends StatelessWidget {
                       color: Colors.green,
                     ),
                     Column(
+                      crossAxisAlignment: CrossAxisAlignment.stretch,
                       children: [
                         Text(
                           '(Hari Kiamat) surat ke-56 terdiri dari 96 ayat',
@@ -236,9 +238,10 @@ class HomeMain extends StatelessWidget {
                       color: Colors.green,
                     ),
                     Column(
+                      crossAxisAlignment: CrossAxisAlignment.stretch,
                       children: [
                         Text(
-                          '(Orang-orang yang Curang) surat ke-83 terdiri dari 36 ayat',
+                          'kesulitan bisa terurai dan kesusahan bisa terangkat dengan perantaraan Nabi Muhammad SAW',
                           textAlign: TextAlign.left,
                           style: TextStyle(
                               color: Color.fromARGB(187, 95, 91, 91),
@@ -310,9 +313,10 @@ class HomeMain extends StatelessWidget {
                       color: Colors.green,
                     ),
                     Column(
+                      crossAxisAlignment: CrossAxisAlignment.stretch,
                       children: [
                         Text(
-                          '(Orang-orang yang Curang) surat ke-83 terdiri dari 36 ayat',
+                          'Gambaran tentang kekuasaan Allah SWT',
                           textAlign: TextAlign.left,
                           style: TextStyle(
                               color: Color.fromARGB(187, 95, 91, 91),
@@ -346,7 +350,7 @@ class HomeMain extends StatelessWidget {
               ),
               child: Container(
                 padding:
-                    const EdgeInsets.symmetric(vertical: 10, horizontal: 0),
+                    const EdgeInsets.symmetric(vertical: 10, horizontal: 10),
                 child: const Column(
                   crossAxisAlignment: CrossAxisAlignment.stretch,
                   children: [
@@ -384,9 +388,10 @@ class HomeMain extends StatelessWidget {
                       color: Colors.green,
                     ),
                     Column(
+                      crossAxisAlignment: CrossAxisAlignment.stretch,
                       children: [
                         Text(
-                          '(Orang-orang yang Curang) surat ke-83 terdiri dari 36 ayat',
+                          'Doa yang diamalkan ketika hendak menerima pelajaran atau menuntut ilmu.',
                           textAlign: TextAlign.left,
                           style: TextStyle(
                               color: Color.fromARGB(187, 95, 91, 91),
