@@ -51,16 +51,6 @@ class _AsmaulHusnaPageState extends State<AsmaulHusnaPage> {
       "meaning": "Yang Maha Perkasa",
     },
     {
-      "arabic": 'الجَبَّارُ',
-      "latin": 'Al Jabbar',
-      "meaning": "Yang Memiliki Mutlak kegagahan",
-    },
-    {
-      "arabic": 'المُتَكَبِّرُ',
-      "latin": 'Al Mutakabbir',
-      "meaning": "Yang Maha Megah",
-    },
-    {
       "arabic": 'الخَالِقُ',
       "latin": 'Al Khaliq',
       "meaning": "Yang Maha Pencipta",
@@ -69,6 +59,16 @@ class _AsmaulHusnaPageState extends State<AsmaulHusnaPage> {
       "arabic": 'البَارِئُ',
       "latin": 'Al Bari',
       "meaning": "Yang Maha Pembuat atau Perancang",
+    },
+    {
+      "arabic": 'المُتَكَبِّرُ',
+      "latin": 'Al Mutakabbir',
+      "meaning": "Yang Maha Megah",
+    },
+    {
+      "arabic": 'الجَبَّارُ',
+      "latin": 'Al Jabbar',
+      "meaning": "Yang Memiliki Mutlak kegagahan",
     },
     {
       "arabic": 'المُصَوِّرُ',
@@ -81,24 +81,24 @@ class _AsmaulHusnaPageState extends State<AsmaulHusnaPage> {
       "meaning": "Yang Maha Pengampun",
     },
     {
-      "arabic": 'القَهَّارُ',
-      "latin": 'Al Qahhar',
-      "meaning": "Yang Maha Memaksa",
-    },
-    {
       "arabic": 'الوَهَّابُ',
       "latin": 'Al Wahhab',
       "meaning": "Yang Maha Pemberi Karunia",
     },
     {
-      "arabic": 'الرَّزَّاقُ',
-      "latin": 'Ar Razzaq',
-      "meaning": "Yang Maha Pemberi Rezeki",
+      "arabic": 'القَهَّارُ',
+      "latin": 'Al Qahhar',
+      "meaning": "Yang Maha Memaksa",
     },
     {
       "arabic": 'الفَتَّاحُ',
       "latin": 'Al Fattah',
       "meaning": "Yang Maha Pembuka Rahmat",
+    },
+    {
+      "arabic": 'الرَّزَّاقُ',
+      "latin": 'Ar Razzaq',
+      "meaning": "Yang Maha Pemberi Rezeki",
     },
     {
       "arabic": 'العَلِيْمُ',
@@ -111,16 +111,6 @@ class _AsmaulHusnaPageState extends State<AsmaulHusnaPage> {
       "meaning": "Yang Maha Menyempitkan",
     },
     {
-      "arabic": 'البَاسِطُ',
-      "latin": 'Al Basith',
-      "meaning": "Yang Maha Melapangkan",
-    },
-    {
-      "arabic": 'الخَافِضُ',
-      "latin": 'Al Haafidh',
-      "meaning": "Yang Maha Merendahkan",
-    },
-    {
       "arabic": 'الرَّافِعُ',
       "latin": 'Ar Raafi',
       "meaning": "Yang Maha Meninggikan",
@@ -129,6 +119,16 @@ class _AsmaulHusnaPageState extends State<AsmaulHusnaPage> {
       "arabic": 'المُعِزُّ',
       "latin": 'Al Muizz',
       "meaning": "Yang Maha Memuliakan",
+    },
+    {
+      "arabic": 'البَاسِطُ',
+      "latin": 'Al Basith',
+      "meaning": "Yang Maha Melapangkan",
+    },
+    {
+      "arabic": 'الخَافِضُ',
+      "latin": 'Al Haafidh',
+      "meaning": "Yang Maha Merendahkan",
     },
     {
       "arabic": 'المُذِلُّ',
@@ -181,19 +181,19 @@ class _AsmaulHusnaPageState extends State<AsmaulHusnaPage> {
       "meaning": "Yang Maha Memberi Pengampunan",
     },
     {
-      "arabic": 'الشَّكُوْرُ',
-      "latin": 'As Syakuur',
-      "meaning": "Yang Maha Pembalas Budi",
-    },
-    {
       "arabic": 'العَلِىُّ',
       "latin": 'Al `Aliy',
       "meaning": "Yang Maha Tinggi",
     },
     {
-      "arabic": 'الكَبِيْرُ',
-      "latin": 'Al Kabiir',
-      "meaning": "Yang Maha Besar",
+      "arabic": 'الشَّكُوْرُ',
+      "latin": 'As Syakuur',
+      "meaning": "Yang Maha Pembalas Budi",
+    },
+    {
+      "arabic": 'الحَسِيْبُ',
+      "latin": 'Al Hasiib',
+      "meaning": "Yang Maha Membuat Perhitungan",
     },
     {
       "arabic": 'الحَفِيْظُ',
@@ -206,19 +206,9 @@ class _AsmaulHusnaPageState extends State<AsmaulHusnaPage> {
       "meaning": "Yang Maha Memberi Kecukupan",
     },
     {
-      "arabic": 'الحَسِيْبُ',
-      "latin": 'Al Hasiib',
-      "meaning": "Yang Maha Membuat Perhitungan",
-    },
-    {
-      "arabic": 'الجَلِيْلُ',
-      "latin": 'Al Jaliil',
-      "meaning": "Yang Maha Luhur",
-    },
-    {
-      "arabic": 'الكَرِيْمُ',
-      "latin": 'Al Kariim',
-      "meaning": "'Yang Maha Pemurah",
+      "arabic": 'الكَبِيْرُ',
+      "latin": 'Al Kabiir',
+      "meaning": "Yang Maha Besar",
     },
     {
       "arabic": 'الرَّقِيْبُ',
@@ -231,14 +221,14 @@ class _AsmaulHusnaPageState extends State<AsmaulHusnaPage> {
       "meaning": "Yang Maha Mengabulkan",
     },
     {
-      "arabic": 'الوَاسِعُ',
-      "latin": 'Al Waasi ',
-      "meaning": "Yang Maha Luas",
+      "arabic": 'الجَلِيْلُ',
+      "latin": 'Al Jaliil',
+      "meaning": "Yang Maha Luhur",
     },
     {
-      "arabic": 'الحَكِيْمُ',
-      "latin": 'Al Hakiim',
-      "meaning": "Yang Maha Maka Bijaksana",
+      "arabic": 'الكَرِيْمُ',
+      "latin": 'Al Kariim',
+      "meaning": "'Yang Maha Pemurah",
     },
     {
       "arabic": 'الوَدُوْدُ',
@@ -251,14 +241,14 @@ class _AsmaulHusnaPageState extends State<AsmaulHusnaPage> {
       "meaning": "Yang Maha Mulia",
     },
     {
-      "arabic": 'البَاعِثُ',
-      "latin": 'Al Baa`its',
-      "meaning": "Yang Maha Membangkitkan",
+      "arabic": 'الوَاسِعُ',
+      "latin": 'Al Waasi ',
+      "meaning": "Yang Maha Luas",
     },
     {
-      "arabic": 'الشَّهِيْدُ',
-      "latin": 'As Syahiid',
-      "meaning": "Yang Maha Menyaksikan",
+      "arabic": 'الحَكِيْمُ',
+      "latin": 'Al Hakiim',
+      "meaning": "Yang Maha Maka Bijaksana",
     },
     {
       "arabic": 'الحَقُّ',
@@ -269,6 +259,16 @@ class _AsmaulHusnaPageState extends State<AsmaulHusnaPage> {
       "arabic": 'الوَكِيْلُ',
       "latin": 'Al Wakiil',
       "meaning": "Yang Maha Memelihara",
+    },
+    {
+      "arabic": 'البَاعِثُ',
+      "latin": 'Al Baa`its',
+      "meaning": "Yang Maha Membangkitkan",
+    },
+    {
+      "arabic": 'الشَّهِيْدُ',
+      "latin": 'As Syahiid',
+      "meaning": "Yang Maha Menyaksikan",
     },
     {
       "arabic": 'القَوِىُّ',
@@ -301,14 +301,14 @@ class _AsmaulHusnaPageState extends State<AsmaulHusnaPage> {
       "meaning": "Yang Maha Memulai",
     },
     {
-      "arabic": 'المُعِيْدُ',
-      "latin": 'Al Mu`iid',
-      "meaning": "Yang Maha Mengembalikan",
-    },
-    {
       "arabic": 'المُحْيِى',
       "latin": 'Al Muhyii',
       "meaning": "Yang Maha Menghidupkan",
+    },
+    {
+      "arabic": 'المُعِيْدُ',
+      "latin": 'Al Mu`iid',
+      "meaning": "Yang Maha Mengembalikan",
     },
     {
       "arabic": 'المُمِيْتُ',
@@ -341,9 +341,9 @@ class _AsmaulHusnaPageState extends State<AsmaulHusnaPage> {
       "meaning": "Yang Maha Tunggal'",
     },
     {
-      "arabic": 'الاَحَدُ',
-      "latin": 'Al Ahad',
-      "meaning": "Yang Maha Esa",
+      "arabic": 'المُؤَخِّرُ',
+      "latin": 'Al Mu`akkhir',
+      "meaning": "Yang Maha Mengakhirkan",
     },
     {
       "arabic": 'الصَّمَدُ',
@@ -366,39 +366,9 @@ class _AsmaulHusnaPageState extends State<AsmaulHusnaPage> {
       "meaning": "Yang Maha Mendahulukan",
     },
     {
-      "arabic": 'المُؤَخِّرُ',
-      "latin": 'Al Mu`akkhir',
-      "meaning": "Yang Maha Mengakhirkan",
-    },
-    {
-      "arabic": 'الأَوَّلُ',
-      "latin": 'Al Awwal',
-      "meaning": "Yang Maha Awal",
-    },
-    {
-      "arabic": 'الأَخِرُ',
-      "latin": 'Al Aakhir',
-      "meaning": "Yang Maha Akhir",
-    },
-    {
-      "arabic": 'الظَّاهِرُ',
-      "latin": 'Al Zhaahir',
-      "meaning": "Yang Maha Nyata",
-    },
-    {
-      "arabic": 'البَاطِنُ',
-      "latin": 'Al Baathin',
-      "meaning": "Yang Maha Ghaib",
-    },
-    {
-      "arabic": 'الوَالِي',
-      "latin": 'Al Waali',
-      "meaning": "Yang Maha Memerintah",
-    },
-    {
-      "arabic": 'المُتَعَالِي',
-      "latin": 'Al Muta`aalii',
-      "meaning": "Yang Maha Tinggi",
+      "arabic": 'الاَحَدُ',
+      "latin": 'Al Ahad',
+      "meaning": "Yang Maha Esa",
     },
     {
       "arabic": 'البَرُّ',
@@ -411,9 +381,34 @@ class _AsmaulHusnaPageState extends State<AsmaulHusnaPage> {
       "meaning": "Yang Maha Penerima Tobat",
     },
     {
-      "arabic": 'المُنْتَقِمُ',
-      "latin": 'Al Muntaqim',
-      "meaning": "Yang Maha Penuntut balas",
+      "arabic": 'البَاطِنُ',
+      "latin": 'Al Baathin',
+      "meaning": "Yang Maha Ghaib",
+    },
+    {
+      "arabic": 'الظَّاهِرُ',
+      "latin": 'Al Zhaahir',
+      "meaning": "Yang Maha Nyata",
+    },
+    {
+      "arabic": 'الوَالِي',
+      "latin": 'Al Waali',
+      "meaning": "Yang Maha Memerintah",
+    },
+    {
+      "arabic": 'المُتَعَالِي',
+      "latin": 'Al Muta`aalii',
+      "meaning": "Yang Maha Tinggi",
+    },
+    {
+      "arabic": 'الأَوَّلُ',
+      "latin": 'Al Awwal',
+      "meaning": "Yang Maha Awal",
+    },
+    {
+      "arabic": 'الأَخِرُ',
+      "latin": 'Al Aakhir',
+      "meaning": "Yang Maha Akhir",
     },
     {
       "arabic": 'العَفُوُّ',
@@ -421,19 +416,19 @@ class _AsmaulHusnaPageState extends State<AsmaulHusnaPage> {
       "meaning": "Yang Maha Pemaaf",
     },
     {
-      "arabic": 'الرَّؤُوْفُ',
-      "latin": 'Ar Ra`uuf',
-      "meaning": "Yang Maha Pengasuh",
-    },
-    {
       "arabic": 'مَالِكُ المُلْكِ',
       "latin": 'Malikul Mulk',
       "meaning": "Yang Maha Penguasa Kerajaan",
     },
     {
-      "arabic": 'ذُوْ الجَلَالِ وَ الإِكْرَامِ',
-      "latin": 'Dzul Jalali Wal Ikram',
-      "meaning": "Yang Maha Pemilik Kebesaran dan Kemuliaan",
+      "arabic": 'الرَّؤُوْفُ',
+      "latin": 'Ar Ra`uuf',
+      "meaning": "Yang Maha Pengasuh",
+    },
+    {
+      "arabic": 'المُنْتَقِمُ',
+      "latin": 'Al Muntaqim',
+      "meaning": "Yang Maha Penuntut balas",
     },
     {
       "arabic": 'المُقْسِطُ',
@@ -446,6 +441,11 @@ class _AsmaulHusnaPageState extends State<AsmaulHusnaPage> {
       "meaning": "Yang Maha Mengumpulkan",
     },
     {
+      "arabic": 'ذُوْ الجَلَالِ وَ الإِكْرَامِ',
+      "latin": 'Dzul Jalali Wal Ikram',
+      "meaning": "Yang Maha Pemilik Kebesaran dan Kemuliaan",
+    },
+    {
       "arabic": 'الغَنِىُّ',
       "latin": 'Al Ghani',
       "meaning": "Yang Maha Kaya",
@@ -456,14 +456,14 @@ class _AsmaulHusnaPageState extends State<AsmaulHusnaPage> {
       "meaning": "Yang Maha Pemberi Kekayaan",
     },
     {
-      "arabic": 'المَانِعُ',
-      "latin": 'Al Maani',
-      "meaning": "Yang Maha Mencegah",
-    },
-    {
       "arabic": 'الضَّارُّ',
       "latin": 'Ad Dhaar',
       "meaning": "Yang Maha Menimpa Kemudaratan",
+    },
+    {
+      "arabic": 'المَانِعُ',
+      "latin": 'Al Maani',
+      "meaning": "Yang Maha Mencegah",
     },
     {
       "arabic": 'النَّافِعُ',
@@ -504,7 +504,7 @@ class _AsmaulHusnaPageState extends State<AsmaulHusnaPage> {
       "arabic": 'الصَّبُوْرُ',
       "latin": 'As Shabuur',
       "meaning": "Yang Maha Sabar",
-    }
+    },
   ];
 
   final List<Map<String, String>> bismillah = [
