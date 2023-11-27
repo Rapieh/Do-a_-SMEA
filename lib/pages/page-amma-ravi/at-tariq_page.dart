@@ -135,7 +135,7 @@ class _AtTariqPageState extends State<AtTariqPage> {
           mainAxisAlignment: MainAxisAlignment.spaceBetween,
           children: [
             Text(
-              'At-Tariq',
+              'Ath-Thaariq',
               style: TextStyle(),
             ),
           ],

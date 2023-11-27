@@ -84,7 +84,7 @@ class Istigosah extends StatelessWidget {
               height: 12,
             ),
             Divider(
-              thickness: 0.4,
+              thickness: 0.2,
               color: Colors.green,
             ),
             SizedBox(
@@ -197,7 +197,7 @@ class Istigosah extends StatelessWidget {
               height: 12,
             ),
             Divider(
-              thickness: 0.4,
+              thickness: 0.2,
               color: Colors.green,
             ),
             SizedBox(
@@ -215,7 +215,7 @@ class Istigosah extends StatelessWidget {
               height: 12,
             ),
             Divider(
-              thickness: 0.4,
+              thickness: 0.2,
               color: Colors.green,
             ),
             SizedBox(

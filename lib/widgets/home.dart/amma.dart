@@ -686,6 +686,7 @@ class JuzzAmma extends StatelessWidget {
                     ]),
                     Divider(
                       thickness: 0.8,
+                      color: Colors.green,
                     ),
                     Text(
                       "(yang Paling Tinggi) surat ke-87 terdiri dari 19 ayat",
