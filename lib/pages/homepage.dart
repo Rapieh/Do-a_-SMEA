@@ -47,17 +47,8 @@ class _HomePageState extends State<HomePage> {
                   mainAxisAlignment: MainAxisAlignment.center,
                   children: [
                     Text(
-                      "Do'a",
-                      style: TextStyle(fontSize: 26),
-                    ),
-                  ],
-                ),
-                Row(
-                  mainAxisAlignment: MainAxisAlignment.center,
-                  children: [
-                    Text(
-                      'SMK PGRI 5 JEMBER',
-                      style: TextStyle(fontSize: 20),
+                      "DO'A SMK PRIMA",
+                      style: TextStyle(fontSize: 24),
                     ),
                   ],
                 ),

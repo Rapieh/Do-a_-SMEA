@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:hukumanbuersya/pages/alwaqiah_page.dart';
 import 'package:hukumanbuersya/pages/asmaul_husna_page.dart';
 import 'package:hukumanbuersya/pages/ayatkursi_page.dart';
+import 'package:hukumanbuersya/pages/doa_akhir_majelis.dart';
 import 'package:hukumanbuersya/pages/nariyahpage.dart';
 import 'package:hukumanbuersya/pages/prelearn_page.dart';
 
@@ -373,7 +374,7 @@ class HomeMain extends StatelessWidget {
                               width: 12,
                             ),
                             Text(
-                              "Do'a sebelum Belajar",
+                              "Do'a Sebelum Belajar",
                               style: TextStyle(
                                   fontWeight: FontWeight.bold,
                                   fontSize: 24,
@@ -392,6 +393,81 @@ class HomeMain extends StatelessWidget {
                       children: [
                         Text(
                           'Doa yang diamalkan ketika hendak menerima pelajaran atau menuntut ilmu.',
+                          textAlign: TextAlign.left,
+                          style: TextStyle(
+                              color: Color.fromARGB(187, 95, 91, 91),
+                              fontSize: 14),
+                        ),
+                      ],
+                    ),
+                    SizedBox(
+                      height: 10,
+                    )
+                  ],
+                ),
+              ),
+            ),
+            const SizedBox(
+              height: 16,
+            ),
+            ElevatedButton(
+              onPressed: () {
+                Navigator.push(
+                    context,
+                    MaterialPageRoute(
+                        builder: (context) => const DoaAkhirMajelisPage()));
+              },
+              style: ElevatedButton.styleFrom(
+                backgroundColor: const Color.fromARGB(255, 255, 255, 255),
+                minimumSize: const Size(350, 60),
+                shape: RoundedRectangleBorder(
+                  borderRadius: BorderRadius.circular(10),
+                ),
+              ),
+              child: Container(
+                padding:
+                    const EdgeInsets.symmetric(vertical: 10, horizontal: 10),
+                child: const Column(
+                  crossAxisAlignment: CrossAxisAlignment.stretch,
+                  children: [
+                    Row(
+                      mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                      children: [
+                        Row(
+                          children: [
+                            SizedBox(
+                                // width: 25,
+                                ),
+                            Image(
+                              image: AssetImage(
+                                'assets/images/logo.png',
+                              ),
+                              width: 36,
+                              color: Color.fromARGB(255, 36, 87, 37),
+                            ),
+                            SizedBox(
+                              width: 12,
+                            ),
+                            Text(
+                              "Do'a Akhir Majelis",
+                              style: TextStyle(
+                                  fontWeight: FontWeight.bold,
+                                  fontSize: 24,
+                                  color: Color.fromARGB(150, 10, 10, 10)),
+                            ),
+                          ],
+                        ),
+                      ],
+                    ),
+                    Divider(
+                      thickness: 1,
+                      color: Colors.green,
+                    ),
+                    Column(
+                      crossAxisAlignment: CrossAxisAlignment.stretch,
+                      children: [
+                        Text(
+                          'memberikan kesempatan bagi kita untuk merefleksikan diri, dan memperbaiki diri',
                           textAlign: TextAlign.left,
                           style: TextStyle(
                               color: Color.fromARGB(187, 95, 91, 91),
